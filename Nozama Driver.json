@@ -77,7 +77,7 @@
         "alwaysLoaded": false,
         "file": "assets/RoadTile.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/RoadTile.png\"}",
         "name": "RoadTile",
         "smoothed": true,
         "userAdded": false
@@ -223,6 +223,231 @@
         "kind": "image",
         "metadata": "",
         "name": "building3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/package.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "package",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/package2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "package2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "van_scaled_5x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "van_scaled_5x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "van_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "van_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building1_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building1_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building2_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building2_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building3_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building3_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building4_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building4_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building5_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building5_scaled_3x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building5_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building5_scaled_3x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building1_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building1_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building3_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building3_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building2_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building2_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building4_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building4_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building6_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building6_scaled_3x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building6_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building6_scaled_3x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
         "smoothed": true,
         "userAdded": false
       }

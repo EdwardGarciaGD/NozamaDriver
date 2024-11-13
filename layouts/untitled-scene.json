@@ -9,7 +9,7 @@
   "title": "",
   "v": 189,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,11 +17,35 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 1.4307927813134302,
+    "snap": false,
+    "zoomFactor": 0.7876290101673818,
     "windowMask": false
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Buildings",
+      "objects": [
+        {
+          "name": "building1"
+        },
+        {
+          "name": "building2"
+        },
+        {
+          "name": "building5"
+        },
+        {
+          "name": "building6"
+        },
+        {
+          "name": "building3"
+        },
+        {
+          "name": "building4"
+        }
+      ]
+    }
+  ],
   "variables": [],
   "instances": [
     {
@@ -250,13 +274,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
       "keepRatio": true,
       "layer": "",
       "name": "RoadTile",
       "persistentUuid": "096258bc-ee8b-46ee-95ad-499b743ffc5a",
-      "width": 0,
+      "width": 32,
       "x": 608,
       "y": 416,
       "zOrder": 12,
@@ -270,12 +295,712 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "VanPlaceholder",
-      "persistentUuid": "919fd05f-2901-44bf-90e5-18f428e97366",
+      "name": "RoadTurn",
+      "persistentUuid": "962dbea7-0a0f-4e18-aca2-3a3159e22360",
       "width": 0,
-      "x": 510,
-      "y": 384,
-      "zOrder": 13,
+      "x": 608,
+      "y": 320,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTurn",
+      "persistentUuid": "bf447475-60be-40e2-9f3a-018506fabce4",
+      "width": 0,
+      "x": 512,
+      "y": 256,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTurn",
+      "persistentUuid": "8092186e-e989-48d1-a78e-c880cf3ec182",
+      "width": 0,
+      "x": 480,
+      "y": 256,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "3cb68716-8c0c-4877-b9b3-8771876a8e21",
+      "width": 0,
+      "x": 544,
+      "y": 256,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "ad24ca2a-fdf0-461e-884e-a2b71027e8f8",
+      "width": 0,
+      "x": 640,
+      "y": 320,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "04d0b71e-0a4e-41d0-8233-e4f56f31ef46",
+      "width": 224,
+      "x": 576,
+      "y": 256,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTurn",
+      "persistentUuid": "e1ab513c-5ba7-43e2-9320-683965a4263d",
+      "width": 0,
+      "x": 800,
+      "y": 256,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTile",
+      "persistentUuid": "6743d06c-4c8d-47a9-816c-3b13a5e27bbb",
+      "width": 32,
+      "x": 800,
+      "y": 288,
+      "zOrder": 23,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadIntersection",
+      "persistentUuid": "e9db5c56-02a8-4c22-a248-1f8081007cd5",
+      "width": 0,
+      "x": 800,
+      "y": 480,
+      "zOrder": 24,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTile",
+      "persistentUuid": "61f3508b-de00-4416-8467-37af79b4062a",
+      "width": 32,
+      "x": 800,
+      "y": 512,
+      "zOrder": 25,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTurn",
+      "persistentUuid": "efa2b306-0b66-4ed1-8417-9323f4647e83",
+      "width": 32,
+      "x": 800,
+      "y": 640,
+      "zOrder": 26,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "fea816b7-c203-4eab-a7bd-5fa774e4f232",
+      "width": 160,
+      "x": 640,
+      "y": 480,
+      "zOrder": 27,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "a3cc48d7-3143-4d2c-b82a-d66de9d13122",
+      "width": 160,
+      "x": 832,
+      "y": 480,
+      "zOrder": 28,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadIntersection",
+      "persistentUuid": "a998b121-c995-42b5-bb7f-78e8b083c69e",
+      "width": 0,
+      "x": 608,
+      "y": 480,
+      "zOrder": 29,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "c47ca6fe-95a6-4049-bf76-662d6509ac85",
+      "width": 64,
+      "x": 544,
+      "y": 480,
+      "zOrder": 30,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTurn",
+      "persistentUuid": "b492b10c-35c0-4d53-bb45-121f3d16f855",
+      "width": 0,
+      "x": 512,
+      "y": 480,
+      "zOrder": 31,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTurn",
+      "persistentUuid": "f29cda7d-1ff9-4e7b-85ee-999d67207292",
+      "width": 0,
+      "x": 480,
+      "y": 480,
+      "zOrder": 32,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "462ba741-4fdc-4597-948b-555fc4220494",
+      "width": 160,
+      "x": 832,
+      "y": 640,
+      "zOrder": 33,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "035a541b-7ce0-4506-91f1-6973d5c9cf8c",
+      "width": 0,
+      "x": 448,
+      "y": 256,
+      "zOrder": 34,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "07f2a444-b1ca-429e-9e60-20a3b6207fbf",
+      "width": 0,
+      "x": 448,
+      "y": 480,
+      "zOrder": 35,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadIntersection",
+      "persistentUuid": "951d15f0-d21b-4675-acff-fa53b7457c30",
+      "width": 0,
+      "x": 416,
+      "y": 480,
+      "zOrder": 36,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTile",
+      "persistentUuid": "f0e03561-6f49-42d5-97bd-7943f145a7bc",
+      "width": 32,
+      "x": 416,
+      "y": 288,
+      "zOrder": 37,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTile",
+      "persistentUuid": "62fa13c4-8407-4507-8970-4384a943df37",
+      "width": 32,
+      "x": 416,
+      "y": 512,
+      "zOrder": 38,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "cc91db98-4fd9-46ce-a394-f1da31057765",
+      "width": 96,
+      "x": 320,
+      "y": 480,
+      "zOrder": 39,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadIntersection",
+      "persistentUuid": "f81ec56a-b91d-422b-9cd7-7a1bd66d8ebe",
+      "width": 0,
+      "x": 416,
+      "y": 256,
+      "zOrder": 40,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTile",
+      "persistentUuid": "31d7ff2d-660b-4ca3-bd4a-c65da27c7f1a",
+      "width": 32,
+      "x": 416,
+      "y": 128,
+      "zOrder": 41,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "RoadTileSideways",
+      "persistentUuid": "9b3d935c-36a2-4948-8b07-6fa2d9ac08f5",
+      "width": 0,
+      "x": 384,
+      "y": 256,
+      "zOrder": 42,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building1",
+      "persistentUuid": "7721781c-2597-4de0-96e1-2ea6d55d51fb",
+      "width": 0,
+      "x": 646,
+      "y": 280,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building2",
+      "persistentUuid": "ad944898-49e5-4dcc-a52e-6f33104aa606",
+      "width": 0,
+      "x": 364,
+      "y": 295,
+      "zOrder": 44,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building3",
+      "persistentUuid": "68284feb-e344-4509-a585-71cf37ee595b",
+      "width": 0,
+      "x": 675,
+      "y": 318,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building4",
+      "persistentUuid": "8048d9ad-70ea-4c0d-a06c-aa7e631079d1",
+      "width": 0,
+      "x": 335,
+      "y": 198,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building5",
+      "persistentUuid": "919dadf3-ca29-4b82-a252-597b4f8dffc3",
+      "width": 0,
+      "x": 542,
+      "y": 288,
+      "zOrder": 47,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building6",
+      "persistentUuid": "120bf997-3fc8-4783-a2c8-a9dbe446887d",
+      "width": 0,
+      "x": 681,
+      "y": 380,
+      "zOrder": 48,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NeedsPackage",
+      "persistentUuid": "5c25b359-7dd0-4c43-8fd0-b8808fc9d648",
+      "width": 0,
+      "x": 390,
+      "y": 329,
+      "zOrder": 49,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building5",
+      "persistentUuid": "585fecd4-40aa-4669-8718-589389aa67f4",
+      "width": 0,
+      "x": 542,
+      "y": 328,
+      "zOrder": 50,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building2",
+      "persistentUuid": "2257f980-d55f-4027-aa92-c173d4445046",
+      "width": 0,
+      "x": 546,
+      "y": 372,
+      "zOrder": 51,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building1",
+      "persistentUuid": "fe81fabc-fdcc-42f2-b179-f8ab11d04635",
+      "width": 0,
+      "x": 590,
+      "y": 280,
+      "zOrder": 52,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building3",
+      "persistentUuid": "6bed6e88-94d9-4a5a-a137-7e7c4b54bb4c",
+      "width": 0,
+      "x": 728,
+      "y": 317,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "building1",
+      "persistentUuid": "ac6aa17c-db44-40ec-a936-c21257cb7e8c",
+      "width": 0,
+      "x": 363,
+      "y": 346,
+      "zOrder": 54,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "van",
+      "persistentUuid": "38d902b6-0da8-4361-a2eb-c07b92a03f42",
+      "width": 0,
+      "x": 449,
+      "y": 334,
+      "zOrder": 55,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "NewSprite",
+      "persistentUuid": "68033d08-6f10-405b-a753-e61c07bb09f6",
+      "width": 0,
+      "x": 21,
+      "y": 14,
+      "zOrder": 56,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "HealthDisplay",
+      "persistentUuid": "a1cf5880-5d42-48da-ac7b-4d53518cf4eb",
+      "width": 0,
+      "x": 56,
+      "y": 25,
+      "zOrder": 57,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "package",
+      "persistentUuid": "2bd85bea-2525-4937-a606-984ffffee5f2",
+      "width": 0,
+      "x": 34,
+      "y": 87,
+      "zOrder": 58,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PackagesDisplay",
+      "persistentUuid": "f2364ade-648a-470a-8696-b5182da0cfa0",
+      "width": 0,
+      "x": 65,
+      "y": 73,
+      "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -548,16 +1273,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "building1_scaled_2x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "building1.png",
+                  "image": "building1_scaled_2x_pngcrushed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -573,20 +1299,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 16
+                        "x": 6,
+                        "y": 13
                       },
                       {
-                        "x": 31,
-                        "y": 16
+                        "x": 44,
+                        "y": 13
                       },
                       {
-                        "x": 31,
-                        "y": 27
+                        "x": 44,
+                        "y": 35
                       },
                       {
-                        "x": 12,
-                        "y": 27
+                        "x": 6,
+                        "y": 35
                       }
                     ]
                   ]
@@ -608,16 +1334,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "building2_scaled_2x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "building2.png",
+                  "image": "building2_scaled_2x_pngcrushed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -633,20 +1360,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 13
+                        "x": 8,
+                        "y": 8
                       },
                       {
-                        "x": 33,
-                        "y": 13
+                        "x": 42,
+                        "y": 8
                       },
                       {
-                        "x": 33,
-                        "y": 29
+                        "x": 42,
+                        "y": 40
                       },
                       {
-                        "x": 16,
-                        "y": 29
+                        "x": 8,
+                        "y": 40
                       }
                     ]
                   ]
@@ -668,16 +1395,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "building4_scaled_2x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "building4.png",
+                  "image": "building4_scaled_2x_pngcrushed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -693,20 +1421,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 11,
-                        "y": 17
+                        "x": 1,
+                        "y": 4
                       },
                       {
-                        "x": 47,
-                        "y": 17
+                        "x": 73,
+                        "y": 4
                       },
                       {
-                        "x": 47,
-                        "y": 39
+                        "x": 73,
+                        "y": 48
                       },
                       {
-                        "x": 11,
-                        "y": 39
+                        "x": 1,
+                        "y": 48
                       }
                     ]
                   ]
@@ -723,9 +1451,130 @@
       "name": "van",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Health",
+          "type": "number",
+          "value": 10
+        },
+        {
+          "name": "PackagesDelivered",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "isFolded": true,
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet",
+          "FireCooldown": 0.1,
+          "HasJustFired": false,
+          "RotateBullet": true,
+          "FiringArc": 45,
+          "BulletQuantity": 1,
+          "AngleVariance": 0,
+          "BulletSpeedVariance": 0,
+          "AmmoQuantity": 0,
+          "ShotsPerReload": 1,
+          "ReloadDuration": 1,
+          "MaxAmmo": 0,
+          "ShotsBeforeNextReload": 0,
+          "TotalShotsFired": 0,
+          "TotalBulletsCreated": 0,
+          "StartingAmmo": 0,
+          "TotalReloadsCompleted": 0,
+          "UnlimitedAmmo": true,
+          "ReloadInProgress": false,
+          "HeatIncreasePerShot": 0,
+          "HeatLevel": 0,
+          "AutomaticReloading": true,
+          "OverheatDuration": 0,
+          "LinearCoolingRate": 0.1,
+          "ExponentialCoolingRate": 0.3,
+          "BulletLayer": "",
+          "RandomizedAngle": 0
+        },
+        {
+          "isFolded": true,
+          "name": "PixelPerfectTopDownMovement",
+          "type": "PixelPerfectMovement::PixelPerfectTopDownMovement",
+          "TopDownMovement": "TopDownMovement",
+          "PixelSize": 1,
+          "OffsetX": 0,
+          "OffsetY": 0
+        },
+        {
+          "isFolded": true,
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.9,
+          "RightwardSpeed": 0.9,
+          "UpwardSpeed": 0.9,
+          "DownwardSpeed": 0.9,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        },
+        {
+          "isFolded": true,
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 300,
+          "allowDiagonals": false,
+          "angleOffset": 90,
+          "angularMaxSpeed": 500,
+          "customIsometryAngle": 30,
+          "deceleration": 1000,
+          "ignoreDefaultControls": false,
+          "maxSpeed": 200,
+          "movementAngleOffset": 0,
+          "rotateObject": true,
+          "viewpoint": "TopDown"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -737,8 +1586,19 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "van.png",
-                  "points": [],
+                  "image": "van_scaled_2x_pngcrushed.png",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 48,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    }
+                  ],
                   "originPoint": {
                     "name": "origine",
                     "x": 0,
@@ -753,20 +1613,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 15
+                        "x": 34,
+                        "y": 30
                       },
                       {
-                        "x": 27,
-                        "y": 15
+                        "x": 54,
+                        "y": 30
                       },
                       {
-                        "x": 27,
-                        "y": 37
+                        "x": 54,
+                        "y": 74
                       },
                       {
-                        "x": 17,
-                        "y": 37
+                        "x": 34,
+                        "y": 74
                       }
                     ]
                   ]
@@ -1028,27 +1888,28 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "package",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "package.png",
+                  "image": "package2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 25,
+                    "y": 25
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 25,
+                    "y": 25
                   },
                   "customCollisionMask": [
                     [
@@ -1088,16 +1949,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "building5_scaled_3x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "building5.png",
+                  "image": "building5_scaled_3x_pngcrushed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1113,20 +1975,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 16,
-                        "y": 19
+                        "x": 9,
+                        "y": 7
                       },
                       {
-                        "x": 26,
-                        "y": 19
+                        "x": 39,
+                        "y": 7
                       },
                       {
-                        "x": 26,
-                        "y": 29
+                        "x": 39,
+                        "y": 37
                       },
                       {
-                        "x": 16,
-                        "y": 29
+                        "x": 9,
+                        "y": 37
                       }
                     ]
                   ]
@@ -1148,16 +2010,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "building6_scaled_3x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "building6.png",
+                  "image": "building6_scaled_3x_pngcrushed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1173,20 +2036,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 10,
-                        "y": 14
+                        "x": 5,
+                        "y": 4
                       },
                       {
-                        "x": 39,
-                        "y": 14
+                        "x": 92,
+                        "y": 4
                       },
                       {
-                        "x": 39,
-                        "y": 33
+                        "x": 92,
+                        "y": 61
                       },
                       {
-                        "x": 10,
-                        "y": 33
+                        "x": 5,
+                        "y": 61
                       }
                     ]
                   ]
@@ -1208,16 +2071,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "building3_scaled_2x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "building3.png",
+                  "image": "building3_scaled_2x_pngcrushed",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1233,20 +2097,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 15,
-                        "y": 14
+                        "x": 8,
+                        "y": 7
                       },
                       {
-                        "x": 38,
-                        "y": 14
+                        "x": 54,
+                        "y": 7
                       },
                       {
-                        "x": 38,
-                        "y": 38
+                        "x": 54,
+                        "y": 55
                       },
                       {
-                        "x": 15,
-                        "y": 38
+                        "x": 8,
+                        "y": 55
                       }
                     ]
                   ]
@@ -1256,6 +2120,245 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "RoadTurn",
+      "texture": "NewTiledSprite3",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "RoadTileSideways",
+      "texture": "NewTiledSprite4",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "RoadIntersection",
+      "texture": "NewTiledSprite5",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NeedsPackage",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 17,
+                        "y": 22
+                      },
+                      {
+                        "x": 46,
+                        "y": 22
+                      },
+                      {
+                        "x": 46,
+                        "y": 43
+                      },
+                      {
+                        "x": 17,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 10
+                      },
+                      {
+                        "x": 29,
+                        "y": 32
+                      },
+                      {
+                        "x": 3,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HealthDisplay",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "10",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "10",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PackagesDisplay",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1263,6 +2366,15 @@
     "children": [
       {
         "objectName": "RoadTile"
+      },
+      {
+        "objectName": "RoadIntersection"
+      },
+      {
+        "objectName": "RoadTileSideways"
+      },
+      {
+        "objectName": "RoadTurn"
       },
       {
         "objectName": "VanPlaceholder"
@@ -1286,10 +2398,19 @@
         "objectName": "building5"
       },
       {
+        "objectName": "building6"
+      },
+      {
+        "objectName": "NeedsPackage"
+      },
+      {
         "objectName": "van"
       },
       {
-        "objectName": "building6"
+        "objectName": "PackagesDisplay"
+      },
+      {
+        "objectName": "HealthDisplay"
       },
       {
         "objectName": "package"
@@ -1305,6 +2426,9 @@
       },
       {
         "objectName": "fullbottle"
+      },
+      {
+        "objectName": "NewSprite"
       }
     ]
   },
@@ -1328,9 +2452,9 @@
           },
           "parameters": [
             "",
-            "VanPlaceholder",
+            "van",
             "",
-            "\"Layer\"",
+            "",
             ""
           ]
         },
@@ -1340,72 +2464,12 @@
           },
           "parameters": [
             "",
-            "5",
-            "\"Layer\"",
+            "3",
+            "",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Up"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Down"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Left"
-          ]
-        }
-      ],
-      "actions": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "Right"
-          ]
-        }
-      ],
-      "actions": []
     },
     {
       "colorB": 228,
@@ -1421,50 +2485,152 @@
           "conditions": [
             {
               "type": {
-                "value": "FireBullet::FireBullet::IsReadyToShoot"
-              },
-              "parameters": [
-                "VanPlaceholder",
-                "FireBullet",
-                "="
-              ]
-            },
-            {
-              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
                 "",
                 "Space"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "FireBullet::FireBullet::Fire"
+                "value": "FireBullet::FireBullet::FireTowardPosition"
               },
               "parameters": [
-                "VanPlaceholder",
+                "van",
                 "FireBullet",
-                "VanPlaceholder.PointX(\"PackageSpawn\")",
-                "VanPlaceholder.PointY(\"PackageSpawn\")",
-                "PackagePlaceholder",
-                "0",
-                "250",
-                "200"
+                "van.PointX(\"PackageSpawn\")",
+                "van.PointY(\"PackageSpawn\")",
+                "package",
+                "van.PointX(\"PackageDirection\")",
+                "van.PointY(\"PackageDirection\")",
+                "50",
+                ""
               ]
             }
           ]
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Health and Collisions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "van",
+            "Buildings",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "van",
+            "Health",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "HealthDisplay",
+            "Text",
+            "=",
+            "ToString(van.Health)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "package",
+            "NeedsPackage",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "NeedsPackage",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "package",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "van",
+            "PackagesDelivered",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PackagesDisplay",
+            "Text",
+            "=",
+            "ToString(van.PackagesDelivered)"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1544,6 +2710,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -1582,6 +2781,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
