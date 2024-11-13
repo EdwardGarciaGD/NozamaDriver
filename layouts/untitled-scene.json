@@ -480,9 +480,9 @@
       "effects": [],
       "behaviors": [
         {
-          "extraBorder": 5,
           "name": "DestroyOutside",
-          "type": "DestroyOutsideBehavior::DestroyOutside"
+          "type": "DestroyOutsideBehavior::DestroyOutside",
+          "extraBorder": 5
         }
       ],
       "animations": [
@@ -604,18 +604,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PhysicsCar::PhysicsCar::SimulateUpKey"
-          },
-          "parameters": [
-            "VanPlaceholder",
-            "PhysicsCar",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -630,18 +619,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PhysicsCar::PhysicsCar::SimulateDownKey"
-          },
-          "parameters": [
-            "VanPlaceholder",
-            "PhysicsCar",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -656,18 +634,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PhysicsCar::PhysicsCar::SimulateLeftKey"
-          },
-          "parameters": [
-            "VanPlaceholder",
-            "PhysicsCar",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -682,18 +649,7 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "PhysicsCar::PhysicsCar::SimulateRightKey"
-          },
-          "parameters": [
-            "VanPlaceholder",
-            "PhysicsCar",
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "colorB": 228,
