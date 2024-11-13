@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7876290101673818,
+    "zoomFactor": 0.6455105703311532,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1004,6 +1004,56 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 48,
+      "height": 19,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PlayerPeeBar",
+      "persistentUuid": "25965b73-710c-4bda-b7cb-008057b51f1f",
+      "width": 156,
+      "x": 533,
+      "y": 15,
+      "zOrder": 61,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 69,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PeeContainer",
+      "persistentUuid": "8013de89-4a6b-4a02-a3ff-9fbe3e96326e",
+      "width": 71,
+      "x": 5,
+      "y": 97,
+      "zOrder": 62,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BottleDisplay",
+      "persistentUuid": "1e8a6339-5835-4e50-9c2d-0fc77b04ac1e",
+      "width": 0,
+      "x": 66,
+      "y": 125,
+      "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1461,6 +1511,11 @@
           "name": "PackagesDelivered",
           "type": "number",
           "value": 0
+        },
+        {
+          "name": "PeeLevel",
+          "type": "number",
+          "value": 0
         }
       ],
       "effects": [],
@@ -1559,17 +1614,17 @@
           "IsCalledManually": false
         },
         {
+          "acceleration": 200,
+          "deceleration": 800,
           "isFolded": true,
+          "maxSpeed": 100,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 300,
           "allowDiagonals": false,
           "angleOffset": 90,
           "angularMaxSpeed": 500,
           "customIsometryAngle": 30,
-          "deceleration": 1000,
           "ignoreDefaultControls": false,
-          "maxSpeed": 200,
           "movementAngleOffset": 0,
           "rotateObject": true,
           "viewpoint": "TopDown"
@@ -1700,10 +1755,16 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "onethirdfull",
+      "name": "PeeContainer",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "NumOfBottles",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1713,11 +1774,155 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.08,
+              "timeBetweenFrames": 0.145,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pixilart-drawing (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 13
+                      },
+                      {
+                        "x": 26,
+                        "y": 13
+                      },
+                      {
+                        "x": 26,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.145,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
                   "image": "onethirdfull.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 13
+                      },
+                      {
+                        "x": 26,
+                        "y": 13
+                      },
+                      {
+                        "x": 26,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.145,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "twothirdsfull.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 13
+                      },
+                      {
+                        "x": 26,
+                        "y": 13
+                      },
+                      {
+                        "x": 26,
+                        "y": 43
+                      },
+                      {
+                        "x": 14,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.145,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fullbottle.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2359,76 +2564,328 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "OneThirdFull",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "InitialValue": 0,
+        "MaxValue": 3,
+        "ShowLabel": false,
+        "BarRightPadding": 3,
+        "BarLeftPadding": 3,
+        "BarTopPadding": 0
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "pixilart-drawing (1).png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "twothirdsfull.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "onethirdfull.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "color": "0;0;0"
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
+      "name": "PlayerPeeBar",
+      "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "MaxValue": 10,
+        "InitialValue": 0,
+        "BarLeftPadding": 9,
+        "BarRightPadding": 9,
+        "BarBottomPadding": 3,
+        "BarTopPadding": 3,
+        "EasingDuration": 0.25,
+        "PreviousHighValueDuration": 0,
+        "ShowLabel": false
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 6,
+          "height": 15,
+          "leftMargin": 11,
+          "rightMargin": 11,
+          "texture": "Copper Bar Border.png",
+          "tiled": true,
+          "topMargin": 6,
+          "width": 96
+        },
+        "Buffer": {
+          "bottomMargin": 0,
+          "height": 8,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Framed Pixel Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 32
+        },
+        "FillBar": {
+          "bottomMargin": 3,
+          "height": 8,
+          "leftMargin": 0,
+          "rightMargin": 4,
+          "texture": "Framed Pixel Red Fill Bar.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 32
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "0 / 10",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 8,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0 / 10",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 8,
+            "color": "255;255;255"
+          }
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "BottleDisplay",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "RoadTile"
+        "folderName": "BottleSprites",
+        "children": [
+          {
+            "objectName": "fullbottle"
+          },
+          {
+            "objectName": "OneThirdFull"
+          },
+          {
+            "objectName": "twothirdsfull"
+          },
+          {
+            "objectName": "emptybottle"
+          }
+        ]
       },
       {
-        "objectName": "RoadIntersection"
+        "folderName": "UI",
+        "children": [
+          {
+            "objectName": "PeeContainer"
+          },
+          {
+            "objectName": "PlayerPeeBar"
+          },
+          {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "HealthDisplay"
+          },
+          {
+            "objectName": "PackagesDisplay"
+          },
+          {
+            "objectName": "BottleDisplay"
+          }
+        ]
       },
       {
-        "objectName": "RoadTileSideways"
+        "folderName": "Backround",
+        "children": [
+          {
+            "objectName": "RoadTurn"
+          },
+          {
+            "objectName": "RoadTileSideways"
+          },
+          {
+            "objectName": "RoadIntersection"
+          },
+          {
+            "objectName": "RoadTile"
+          }
+        ]
       },
       {
-        "objectName": "RoadTurn"
+        "folderName": "Obstacles",
+        "children": [
+          {
+            "objectName": "NeedsPackage"
+          },
+          {
+            "objectName": "building6"
+          },
+          {
+            "objectName": "building5"
+          },
+          {
+            "objectName": "building4"
+          },
+          {
+            "objectName": "building3"
+          },
+          {
+            "objectName": "building2"
+          },
+          {
+            "objectName": "building1"
+          }
+        ]
       },
       {
-        "objectName": "VanPlaceholder"
+        "folderName": "Placeholders",
+        "children": [
+          {
+            "objectName": "PackagePlaceholder"
+          },
+          {
+            "objectName": "VanPlaceholder"
+          }
+        ]
       },
       {
-        "objectName": "PackagePlaceholder"
-      },
-      {
-        "objectName": "building1"
-      },
-      {
-        "objectName": "building2"
-      },
-      {
-        "objectName": "building3"
-      },
-      {
-        "objectName": "building4"
-      },
-      {
-        "objectName": "building5"
-      },
-      {
-        "objectName": "building6"
-      },
-      {
-        "objectName": "NeedsPackage"
-      },
-      {
-        "objectName": "van"
-      },
-      {
-        "objectName": "PackagesDisplay"
-      },
-      {
-        "objectName": "HealthDisplay"
-      },
-      {
-        "objectName": "package"
-      },
-      {
-        "objectName": "emptybottle"
-      },
-      {
-        "objectName": "onethirdfull"
-      },
-      {
-        "objectName": "twothirdsfull"
-      },
-      {
-        "objectName": "fullbottle"
-      },
-      {
-        "objectName": "NewSprite"
+        "folderName": "Player",
+        "children": [
+          {
+            "objectName": "package"
+          },
+          {
+            "objectName": "van"
+          }
+        ]
       }
     ]
   },
@@ -2467,6 +2924,81 @@
             "3",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "van",
+            "\"BladderControl\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PlayerPeeBar",
+            "=",
+            "van.Variable(PeeLevel)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "van",
+            "PeeLevel",
+            "=",
+            "clamp(van.Variable(PeeLevel), 0, 11)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "van",
+            "\"BladderControl\"",
+            ">=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "van",
+            "PeeLevel",
+            "+",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "van",
+            "\"BladderControl\""
           ]
         }
       ]
@@ -2523,114 +3055,227 @@
       "name": "Health and Collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "van",
+                "Buildings",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "van",
+                "Health",
+                "-",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "HealthDisplay",
+                "Text",
+                "=",
+                "ToString(van.Health)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "package",
+                "NeedsPackage",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "NeedsPackage",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "package",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "van",
+                "PackagesDelivered",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "PackagesDisplay",
+                "Text",
+                "=",
+                "ToString(van.PackagesDelivered)"
+              ]
+            }
+          ]
+        }
+      ],
       "parameters": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Bladder Behaviour",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
         {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "van",
-            "Buildings",
-            "",
-            "",
-            ""
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "van",
+                "PeeLevel",
+                ">",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "van",
+                "PeeLevel",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "PeeContainer",
+                "Animation",
+                "+",
+                "1"
+              ]
+            }
           ]
         },
         {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "PeeContainer",
+                "Animation",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "PeeContainer",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "PeeContainer",
+                "NumOfBottles",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "BottleDisplay",
+                "Text",
+                "=",
+                "ToString(PeeContainer.NumOfBottles)"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "PeeContainer",
+                "Animation",
+                "=",
+                "0"
+              ]
+            }
+          ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "van",
-            "Health",
-            "-",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "HealthDisplay",
-            "Text",
-            "=",
-            "ToString(van.Health)"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CollisionNP"
-          },
-          "parameters": [
-            "package",
-            "NeedsPackage",
-            "",
-            "",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "NeedsPackage",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "package",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberObjectVariable"
-          },
-          "parameters": [
-            "van",
-            "PackagesDelivered",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "PackagesDisplay",
-            "Text",
-            "=",
-            "ToString(van.PackagesDelivered)"
-          ]
-        }
-      ]
+      "parameters": []
     }
   ],
   "layers": [
