@@ -108,6 +108,123 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building-3-pixilart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building-3-pixilart.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "van.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "van.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixilart-drawing (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixilart-drawing (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "onethirdfull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "onethirdfull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "twothirdsfull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "twothirdsfull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "fullbottle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fullbottle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "package.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "package.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building3.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
