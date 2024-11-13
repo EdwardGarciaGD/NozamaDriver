@@ -225,6 +225,105 @@
         "name": "building3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/building2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/building1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/building3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/building5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/building4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/building6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/package.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/package.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/emptybottle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/emptybottle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/onethirdfull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/onethirdfull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/twothirdsfull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/twothirdsfull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/fullbottle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/fullbottle.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
