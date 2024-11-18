@@ -1,8 +1,8 @@
 {
   "b": 25,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Untitled_32scene",
-  "name": "Untitled scene",
+  "mangledName": "Level2",
+  "name": "Level2",
   "r": 110,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6455105703311532,
+    "zoomFactor": 0.7370816317994089,
     "windowMask": false
   },
   "objectsGroups": [
@@ -950,8 +950,8 @@
       "name": "NewSprite",
       "persistentUuid": "68033d08-6f10-405b-a753-e61c07bb09f6",
       "width": 0,
-      "x": 21,
-      "y": 14,
+      "x": 43,
+      "y": 276,
       "zOrder": 56,
       "numberProperties": [],
       "stringProperties": [],
@@ -966,25 +966,9 @@
       "name": "HealthDisplay",
       "persistentUuid": "a1cf5880-5d42-48da-ac7b-4d53518cf4eb",
       "width": 0,
-      "x": 56,
-      "y": 25,
+      "x": 100,
+      "y": 285,
       "zOrder": 57,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "package",
-      "persistentUuid": "2bd85bea-2525-4937-a606-984ffffee5f2",
-      "width": 0,
-      "x": 34,
-      "y": 87,
-      "zOrder": 58,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -998,8 +982,8 @@
       "name": "PackagesDisplay",
       "persistentUuid": "f2364ade-648a-470a-8696-b5182da0cfa0",
       "width": 0,
-      "x": 65,
-      "y": 73,
+      "x": 104,
+      "y": 355,
       "zOrder": 59,
       "numberProperties": [],
       "stringProperties": [],
@@ -1032,8 +1016,8 @@
       "name": "PeeContainer",
       "persistentUuid": "8013de89-4a6b-4a02-a3ff-9fbe3e96326e",
       "width": 71,
-      "x": 5,
-      "y": 97,
+      "x": 32,
+      "y": 408,
       "zOrder": 62,
       "numberProperties": [],
       "stringProperties": [],
@@ -1048,9 +1032,141 @@
       "name": "BottleDisplay",
       "persistentUuid": "1e8a6339-5835-4e50-9c2d-0fc77b04ac1e",
       "width": 0,
-      "x": 66,
-      "y": 125,
+      "x": 104,
+      "y": 436,
       "zOrder": 63,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mapBorder",
+      "persistentUuid": "bf696c6b-ca5f-4ec6-8f67-4fb967fede43",
+      "width": 0,
+      "x": 1280,
+      "y": 0,
+      "zOrder": 64,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mapBorder",
+      "persistentUuid": "1bd90b23-3580-484b-b270-eae7d4f209dd",
+      "width": 32,
+      "x": 1280,
+      "y": 32,
+      "zOrder": 65,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mapBorder",
+      "persistentUuid": "6cb8dd5d-de1e-4e9c-99a5-cd5479be00f8",
+      "width": 1344,
+      "x": -32,
+      "y": -32,
+      "zOrder": 66,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mapBorder",
+      "persistentUuid": "bd12af02-1504-407f-b114-88ff0f2d8f19",
+      "width": 32,
+      "x": -32,
+      "y": 0,
+      "zOrder": 67,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "mapBorder",
+      "persistentUuid": "44f8052e-163b-4d49-a220-fd81422cb876",
+      "width": 1312,
+      "x": -32,
+      "y": 736,
+      "zOrder": 68,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "Tutorial",
+      "persistentUuid": "08a7dae3-8b62-4660-9688-97bfa60937d8",
+      "width": 0,
+      "x": 409,
+      "y": 553,
+      "zOrder": 69,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "package",
+      "persistentUuid": "c17766b6-95d2-461a-9182-94f95be705eb",
+      "width": 0,
+      "x": 60,
+      "y": 368,
+      "zOrder": 70,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PackagePlaceholder",
+      "persistentUuid": "f019c97e-5a88-45dc-9734-d5ba529095cf",
+      "width": 0,
+      "x": 28,
+      "y": 343,
+      "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1521,12 +1637,11 @@
       "effects": [],
       "behaviors": [
         {
-          "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
           "FireCooldown": 0.1,
           "HasJustFired": false,
-          "RotateBullet": true,
+          "RotateBullet": false,
           "FiringArc": 45,
           "BulletQuantity": 1,
           "AngleVariance": 0,
@@ -1614,12 +1729,12 @@
           "IsCalledManually": false
         },
         {
-          "acceleration": 200,
-          "deceleration": 800,
           "isFolded": true,
-          "maxSpeed": 100,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 200,
+          "deceleration": 800,
+          "maxSpeed": 100,
           "allowDiagonals": false,
           "angleOffset": 90,
           "angularMaxSpeed": 500,
@@ -1645,13 +1760,18 @@
                   "points": [
                     {
                       "name": "PackageSpawn",
-                      "x": 48,
+                      "x": 44,
                       "y": 37
                     },
                     {
                       "name": "PackageDirection",
                       "x": 74,
                       "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
                     }
                   ],
                   "originPoint": {
@@ -2777,6 +2897,59 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "mapBorder",
+      "texture": "mapBorder",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Tutorial",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Arrows to move,\nA and D to shoot packages",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 33,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Arrows to move,\nA and D to shoot packages",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 33,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2819,6 +2992,9 @@
           },
           {
             "objectName": "BottleDisplay"
+          },
+          {
+            "objectName": "Tutorial"
           }
         ]
       },
@@ -2862,6 +3038,9 @@
           },
           {
             "objectName": "building1"
+          },
+          {
+            "objectName": "mapBorder"
           }
         ]
       },
@@ -2933,6 +3112,17 @@
           "parameters": [
             "van",
             "\"BladderControl\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "van",
+            "Health",
+            "=",
+            "Health"
           ]
         }
       ]
@@ -3008,6 +3198,35 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "Update Variables from Shopping",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "van",
+                "TopDownMovement",
+                "=",
+                "vanSpeed"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "name": "Throw Packages",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3021,7 +3240,7 @@
               },
               "parameters": [
                 "",
-                "Space"
+                "d"
               ]
             }
           ],
@@ -3038,6 +3257,38 @@
                 "package",
                 "van.PointX(\"PackageDirection\")",
                 "van.PointY(\"PackageDirection\")",
+                "50",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FireBullet::FireBullet::FireTowardPosition"
+              },
+              "parameters": [
+                "van",
+                "FireBullet",
+                "van.PointX(\"PackageSpawn\")",
+                "van.PointY(\"PackageSpawn\")",
+                "package",
+                "van.PointX(\"PackageDirection1\")",
+                "van.PointY(\"PackageDirection1\")",
                 "50",
                 ""
               ]
@@ -3161,6 +3412,91 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "van",
+                "mapBorder",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "van",
+                "mapBorder",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "van",
+                "package",
+                "100",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "package",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "package",
+                "Buildings",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "package",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -3276,6 +3612,111 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Game Over",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "van",
+                "Health",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level 1\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "van",
+                "PackagesDelivered",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Health",
+                "=",
+                "van.Health"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Points",
+                "=",
+                "(10 * van.PackagesDelivered) - (5 * (10 - van.Health)) - (PeeContainer.NumOfBottles * 5)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Shop\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
