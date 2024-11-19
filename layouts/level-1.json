@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994089,
+    "zoomFactor": 0.5653158055126358,
     "windowMask": false
   },
   "objectsGroups": [
@@ -927,13 +927,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "van",
       "persistentUuid": "38d902b6-0da8-4361-a2eb-c07b92a03f42",
-      "width": 0,
+      "width": 80,
       "x": 449,
       "y": 334,
       "zOrder": 55,
@@ -1145,28 +1146,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "package",
-      "persistentUuid": "c17766b6-95d2-461a-9182-94f95be705eb",
+      "name": "PackageUI",
+      "persistentUuid": "fcafec39-58e6-48f8-a4be-61cd95b32168",
       "width": 0,
-      "x": 60,
-      "y": 368,
+      "x": 35,
+      "y": 345,
       "zOrder": 70,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "PackagePlaceholder",
-      "persistentUuid": "f019c97e-5a88-45dc-9734-d5ba529095cf",
-      "width": 0,
-      "x": 28,
-      "y": 343,
-      "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1637,6 +1622,16 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Bounce",
+          "type": "Bounce::Bounce",
+          "OldX": 0,
+          "OldY": 2.0247e-320,
+          "OldForceAngle": 2.0247e-320,
+          "OldForceLength": 2.0247e-320,
+          "NormalAngle": 2.0247e-320,
+          "BounceCount": 0
+        },
+        {
           "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
@@ -1666,6 +1661,14 @@
           "ExponentialCoolingRate": 0.3,
           "BulletLayer": "",
           "RandomizedAngle": 0
+        },
+        {
+          "isFolded": true,
+          "name": "Flash",
+          "type": "Flash::Flash",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0
         },
         {
           "isFolded": true,
@@ -1731,9 +1734,9 @@
         },
         {
           "isFolded": true,
-          "maxSpeed": 100,
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 100,
           "acceleration": 200,
           "deceleration": 800,
           "allowDiagonals": false,
@@ -1748,11 +1751,12 @@
       ],
       "animations": [
         {
-          "name": "",
+          "name": "van_scaled_2x_pngcrushed",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
@@ -1789,20 +1793,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 34,
-                        "y": 30
+                        "x": 33,
+                        "y": 29
                       },
                       {
-                        "x": 54,
-                        "y": 30
+                        "x": 55,
+                        "y": 29
                       },
                       {
-                        "x": 54,
-                        "y": 74
+                        "x": 55,
+                        "y": 75
                       },
                       {
-                        "x": 34,
-                        "y": 74
+                        "x": 33,
+                        "y": 75
                       }
                     ]
                   ]
@@ -2265,7 +2269,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "building5",
       "type": "Sprite",
@@ -2305,12 +2309,12 @@
                         "y": 7
                       },
                       {
-                        "x": 39,
+                        "x": 39.5,
                         "y": 7
                       },
                       {
-                        "x": 39,
-                        "y": 37
+                        "x": 39.5,
+                        "y": 37.5
                       },
                       {
                         "x": 9,
@@ -2951,6 +2955,66 @@
         "characterSize": 33,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PackageUI",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "package.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 9
+                      },
+                      {
+                        "x": 37,
+                        "y": 9
+                      },
+                      {
+                        "x": 37,
+                        "y": 33
+                      },
+                      {
+                        "x": 14,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2976,6 +3040,9 @@
       {
         "folderName": "UI",
         "children": [
+          {
+            "objectName": "PackageUI"
+          },
           {
             "objectName": "PeeContainer"
           },
@@ -3257,6 +3324,17 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "package",
+                "Resizable",
+                "25",
+                "25"
+              ]
             }
           ]
         },
@@ -3289,6 +3367,17 @@
                 "50",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "package",
+                "Resizable",
+                "25",
+                "25"
+              ]
             }
           ]
         }
@@ -3300,10 +3389,40 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Health and Collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "van",
+                "Buildings",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "van",
+                "Buildings",
+                ""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -3347,6 +3466,28 @@
                 "Text",
                 "=",
                 "ToString(van.Health)"
+              ]
+            },
+            {
+              "type": {
+                "value": "Flash::Flash::Flash"
+              },
+              "parameters": [
+                "van",
+                "Flash",
+                "0.3",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Bounce::Bounce::BounceOff"
+              },
+              "parameters": [
+                "van",
+                "Bounce",
+                "Buildings",
+                ""
               ]
             }
           ]
@@ -3503,6 +3644,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Bladder Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -3709,11 +3851,6 @@
         }
       ],
       "parameters": []
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -3834,12 +3971,20 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "Bounce",
+      "type": "Bounce::Bounce"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
     {
       "name": "FireBullet",
       "type": "FireBullet::FireBullet"
+    },
+    {
+      "name": "Flash",
+      "type": "Flash::Flash"
     },
     {
       "name": "Flippable",

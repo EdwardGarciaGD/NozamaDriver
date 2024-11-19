@@ -257,7 +257,7 @@
         "alwaysLoaded": false,
         "file": "van_scaled_2x_pngcrushed.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"van_scaled_2x_pngcrushed.png\",\"extension\":\".png\"}",
         "name": "van_scaled_2x_pngcrushed.png",
         "smoothed": true,
         "userAdded": false
@@ -619,6 +619,18 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/flash"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
