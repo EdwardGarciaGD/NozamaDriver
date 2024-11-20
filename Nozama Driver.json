@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -77,7 +77,7 @@
         "alwaysLoaded": false,
         "file": "assets/RoadTile.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/RoadTile.png\"}",
         "name": "RoadTile",
         "smoothed": true,
         "userAdded": false
@@ -228,64 +228,270 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/building2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/building2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/building1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/building1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/building3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/building3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/building5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/building5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/building4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/building4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/building6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/building6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/package.png",
         "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "package",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/package2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "package2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "van_scaled_5x_pngcrushed.png",
+        "kind": "image",
         "metadata": "",
-        "name": "assets/package.png",
+        "name": "van_scaled_5x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "van_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "van_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewTiledSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building1_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building1_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building2_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building2_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building3_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building3_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building4_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building4_scaled_2x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building5_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building5_scaled_3x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building5_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building5_scaled_3x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building1_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building1_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building3_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building3_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building2_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building2_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building4_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building4_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "building6_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "building6_scaled_3x_pngcrushed.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/building6_scaled_3x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "building6_scaled_3x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Copper Bar Border.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Copper Bar Border.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Copper Bar Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/1310fa26ab130bebfe59cdfa310836bfed3ca8d190cfed17a7dd3bdfe0a2a87f_Copper Bar Border.png",
+          "name": "Copper Bar Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Framed Pixel Red Fill Bar.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Framed Pixel Red Fill Bar.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Framed Pixel Red Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/ed31faa46e5c04883605d72470e0f3bfe1c2e679dc6a4a632ab03e105866ff8b_Framed Pixel Red Fill Bar.png",
+          "name": "Framed Pixel Red Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixilart-drawing (1) copy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixilart-drawing (1) copy.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "deliveryping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "deliveryping.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -300,15 +506,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/onethirdfull.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets/onethirdfull.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/twothirdsfull.png",
         "kind": "image",
         "metadata": "",
@@ -318,10 +515,46 @@
       },
       {
         "alwaysLoaded": false,
+        "file": "assets/onethirdfull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/onethirdfull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
         "file": "assets/fullbottle.png",
         "kind": "image",
         "metadata": "",
         "name": "assets/fullbottle.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dumpster.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dumpster.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tree1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tree2.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -342,6 +575,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/firebullet"
