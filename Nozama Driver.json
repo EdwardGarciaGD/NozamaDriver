@@ -735,6 +735,33 @@
         "name": "assets\\package2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tree1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "deliveryping.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "deliveryping.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "tree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tree2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1396,7 +1423,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite6",
+                  "image": "deliveryping.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1412,20 +1439,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 17,
-                        "y": 22
+                        "x": 15,
+                        "y": 4
                       },
                       {
-                        "x": 46,
-                        "y": 22
+                        "x": 38,
+                        "y": 4
                       },
                       {
-                        "x": 46,
-                        "y": 43
+                        "x": 38,
+                        "y": 33
                       },
                       {
-                        "x": 17,
-                        "y": 43
+                        "x": 15,
+                        "y": 33
                       }
                     ]
                   ]
@@ -2335,6 +2362,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tree1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tree1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 2
+                      },
+                      {
+                        "x": 29,
+                        "y": 2
+                      },
+                      {
+                        "x": 29,
+                        "y": 33
+                      },
+                      {
+                        "x": 13,
+                        "y": 33
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "tree2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "tree2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 5
+                      },
+                      {
+                        "x": 34,
+                        "y": 5
+                      },
+                      {
+                        "x": 34,
+                        "y": 29
+                      },
+                      {
+                        "x": 9,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2377,6 +2524,12 @@
           },
           {
             "objectName": "building5"
+          },
+          {
+            "objectName": "tree1"
+          },
+          {
+            "objectName": "tree2"
           }
         ]
       },
