@@ -590,6 +590,76 @@
         "name": "NewSprite11",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Sounds/Crash Collision.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Crash Collision.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/muscle-truck-1950-241621-[AudioTrimmer.com].mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\muscle-truck-1950-241621-[AudioTrimmer.com].mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Truck Idle.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Truck Idle.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Truck Moving.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Truck Moving.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Truck Moving 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Truck Moving 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Swoosh.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Swoosh.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Package Delivered.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Package Delivered.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2526,6 +2596,11 @@
     },
     {
       "name": "vanArmor",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "soundChannel",
       "type": "number",
       "value": 0
     }
