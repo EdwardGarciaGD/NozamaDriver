@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.5289132892233388,
+    "zoomFactor": 0.6672773998330042,
     "windowMask": false
   },
   "objectsGroups": [
@@ -838,8 +838,8 @@
       "name": "NeedsPackage",
       "persistentUuid": "5c25b359-7dd0-4c43-8fd0-b8808fc9d648",
       "width": 0,
-      "x": 390,
-      "y": 329,
+      "x": 393,
+      "y": 347,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -1166,7 +1166,7 @@
       "persistentUuid": "fbcb9a5d-b3c5-4517-b31c-bf841a8cadad",
       "width": 0,
       "x": 391,
-      "y": 282,
+      "y": 264,
       "zOrder": 71,
       "numberProperties": [],
       "stringProperties": [],
@@ -1181,8 +1181,8 @@
       "name": "NeedsPackage",
       "persistentUuid": "4fa7f475-03b2-4c6d-bb40-805590950c66",
       "width": 0,
-      "x": 394,
-      "y": 200,
+      "x": 327,
+      "y": 230,
       "zOrder": 72,
       "numberProperties": [],
       "stringProperties": [],
@@ -1198,7 +1198,7 @@
       "persistentUuid": "d6fae2c8-ce43-4db0-be17-2c9814d0fe51",
       "width": 0,
       "x": 395,
-      "y": 179,
+      "y": 166,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -1296,6 +1296,23 @@
       "x": 665,
       "y": 246,
       "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 24,
+      "keepRatio": true,
+      "layer": "",
+      "name": "arrow",
+      "persistentUuid": "b315e273-cf98-42f5-a14e-b012feb54816",
+      "width": 24,
+      "x": -155,
+      "y": 385,
+      "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1545,6 +1562,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "arrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 39,
+                    "y": 32
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 64,
+                        "y": 10
+                      },
+                      {
+                        "x": 64,
+                        "y": 54
+                      },
+                      {
+                        "x": 24,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1560,6 +1638,9 @@
             "objectName": "VanPlaceholder"
           }
         ]
+      },
+      {
+        "objectName": "arrow"
       }
     ]
   },
@@ -2277,6 +2358,113 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Package Indicator",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "NeedsPackage",
+                "van.CenterX()",
+                "van.CenterY()",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "arrow",
+                "=",
+                "AngleBetweenPositions(van.CenterX(), van.CenterY(), NeedsPackage.CenterX(), NeedsPackage.CenterY())"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "arrow",
+                "van",
+                "100",
+                "arrow.Angle()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                  },
+                  "parameters": [
+                    "NeedsPackage",
+                    "InOnScreen",
+                    "0",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "arrow"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "IsOnScreen::InOnScreen::IsOnScreen"
+                  },
+                  "parameters": [
+                    "NeedsPackage",
+                    "InOnScreen",
+                    "10",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "arrow",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
     }
   ],
   "layers": [
@@ -2415,6 +2603,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "InOnScreen",
+      "type": "IsOnScreen::InOnScreen"
     },
     {
       "name": "Opacity",
