@@ -1562,67 +1562,6 @@
           ]
         }
       ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "arrow",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "NewSprite",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "NewSprite11",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 31.5,
-                    "y": 22.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 39,
-                    "y": 32
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 24,
-                        "y": 10
-                      },
-                      {
-                        "x": 64,
-                        "y": 10
-                      },
-                      {
-                        "x": 64,
-                        "y": 54
-                      },
-                      {
-                        "x": 24,
-                        "y": 54
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1638,9 +1577,6 @@
             "objectName": "VanPlaceholder"
           }
         ]
-      },
-      {
-        "objectName": "arrow"
       }
     ]
   },
@@ -2413,7 +2349,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

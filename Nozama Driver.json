@@ -1484,7 +1484,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Arrows to move,\nA and D to shoot packages",
+      "string": "Arrows to move,\nA and D to throw packages",
       "font": "",
       "textAlignment": "center",
       "characterSize": 33,
@@ -1507,7 +1507,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Arrows to move,\nA and D to shoot packages",
+        "text": "Arrows to move,\nA and D to throw packages",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -2463,6 +2463,67 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "arrow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 22.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 39,
+                    "y": 32
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24,
+                        "y": 10
+                      },
+                      {
+                        "x": 64,
+                        "y": 10
+                      },
+                      {
+                        "x": 64,
+                        "y": 54
+                      },
+                      {
+                        "x": 24,
+                        "y": 54
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2557,6 +2618,9 @@
           },
           {
             "objectName": "cash"
+          },
+          {
+            "objectName": "arrow"
           },
           {
             "objectName": "armor"
