@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.2952916551236044,
+    "zoomFactor": 1.0615714305220099,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1346,6 +1346,23 @@
       "x": 279,
       "y": 195,
       "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 28,
+      "keepRatio": true,
+      "layer": "",
+      "name": "trashcan",
+      "persistentUuid": "246365de-b8b4-4714-ad6b-e2d094f533a7",
+      "width": 26,
+      "x": 799,
+      "y": 349,
+      "zOrder": 76,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3144,6 +3161,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "trashcan",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "trashcan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 15
+                      },
+                      {
+                        "x": 28,
+                        "y": 15
+                      },
+                      {
+                        "x": 28,
+                        "y": 43
+                      },
+                      {
+                        "x": 7,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3217,6 +3294,9 @@
         "children": [
           {
             "objectName": "NeedsPackage"
+          },
+          {
+            "objectName": "trashcan"
           },
           {
             "objectName": "building6"
