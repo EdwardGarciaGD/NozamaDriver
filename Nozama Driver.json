@@ -660,6 +660,36 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Sounds/Button Touch.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Button Touch.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Start Game.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Start Game.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Purchase.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Purchase.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

@@ -2019,7 +2019,7 @@
                 "",
                 "Sounds\\Crash Collision.mp3",
                 "",
-                "40",
+                "30",
                 ""
               ]
             }
@@ -2349,6 +2349,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

@@ -202,6 +202,42 @@
       "conditions": [
         {
           "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "YellowButton",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Button Touch.mp3",
+            "",
+            "50",
+            "1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
             "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
           },
           "parameters": [
@@ -218,6 +254,18 @@
           "parameters": [
             "",
             "\"Level 1\"",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Start Game.wav",
+            "",
+            "50",
             ""
           ]
         }
