@@ -2593,7 +2593,37 @@
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "CollidableObstacles",
+      "objects": [
+        {
+          "name": "building6"
+        },
+        {
+          "name": "building5"
+        },
+        {
+          "name": "building4"
+        },
+        {
+          "name": "building3"
+        },
+        {
+          "name": "building2"
+        },
+        {
+          "name": "building1"
+        },
+        {
+          "name": "tree1"
+        },
+        {
+          "name": "tree2"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "Health",

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.4307927813134411,
+    "zoomFactor": 1.3841198046307006,
     "windowMask": false
   },
   "objectsGroups": [
@@ -2146,7 +2146,7 @@
               },
               "parameters": [
                 "van",
-                "Buildings",
+                "CollidableObstacles",
                 "",
                 "",
                 ""
@@ -2160,7 +2160,7 @@
               },
               "parameters": [
                 "van",
-                "Buildings",
+                "CollidableObstacles",
                 ""
               ]
             }
@@ -2175,7 +2175,7 @@
               },
               "parameters": [
                 "van",
-                "Buildings",
+                "CollidableObstacles",
                 "",
                 "",
                 ""
@@ -2229,7 +2229,7 @@
               "parameters": [
                 "van",
                 "Bounce",
-                "Buildings",
+                "CollidableObstacles",
                 ""
               ]
             },
@@ -2390,7 +2390,7 @@
               },
               "parameters": [
                 "package",
-                "Buildings",
+                "CollidableObstacles",
                 "",
                 "",
                 ""
