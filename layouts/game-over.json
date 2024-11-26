@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 153,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Credits",
-  "name": "Credits",
-  "r": 209,
+  "mangledName": "Game_32Over",
+  "name": "Game Over",
+  "r": 223,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 153,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -30,11 +30,11 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "ThankYou",
-      "persistentUuid": "2a5ada35-bc2a-465c-821c-39dda69f4b77",
+      "name": "TerminationNotice",
+      "persistentUuid": "9dd241ae-5630-453b-8669-c4d12e13d515",
       "width": 0,
-      "x": 320,
-      "y": 32,
+      "x": 457,
+      "y": 52,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -46,10 +46,10 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "CreatedBy",
-      "persistentUuid": "a2162e80-c48e-42b5-9fc5-3974a29483bf",
+      "name": "NewText",
+      "persistentUuid": "fa525ce8-9723-4270-812f-d8058dbfc178",
       "width": 0,
-      "x": 424,
+      "x": 170,
       "y": 128,
       "zOrder": 2,
       "numberProperties": [],
@@ -62,60 +62,12 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "health",
-      "persistentUuid": "e6328c8b-586c-4d6b-ad44-3d74239af69a",
+      "name": "Start_Over_Button",
+      "persistentUuid": "d4744e6e-0bd9-457b-ad99-5696fcd50cdc",
       "width": 0,
-      "x": 928,
-      "y": 128,
+      "x": 512,
+      "y": 310,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "health",
-      "persistentUuid": "4aa47a56-8589-4b1e-a850-cd8946abcfdf",
-      "width": 0,
-      "x": 352,
-      "y": 128,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "ExtraAssets",
-      "persistentUuid": "77e34cfc-bbb9-4e6f-b795-ec1417926179",
-      "width": 0,
-      "x": 448,
-      "y": 288,
-      "zOrder": 5,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Inspiration",
-      "persistentUuid": "5a3920dd-6aa7-43e6-b029-11f1a1990292",
-      "width": 0,
-      "x": 96,
-      "y": 352,
-      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -126,17 +78,17 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "ThankYou",
+      "name": "TerminationNotice",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Thank You for Playing :)",
+      "string": "Termination Notice:",
       "font": "",
       "textAlignment": "left",
-      "characterSize": 60,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -156,11 +108,11 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Thank You for Playing :)",
+        "text": "Termination Notice:",
         "font": "",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 60,
+        "characterSize": 40,
         "color": "0;0;0"
       }
     },
@@ -168,14 +120,14 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "CreatedBy",
+      "name": "NewText",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Created by Ethan Akiyama\n\nDeveloped by Ethan Akiyama and Edward Garcia\n\nArt by Emily Jing",
+      "string": "Due to your inability to operate a delivery vehicle without destroying it and everything around it, \nwe have decided to let your begin your search for a new job (hopefully not another delivery driver position). \nThank you for driving with us,\n\nNozama",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -198,7 +150,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Created by Ethan Akiyama\n\nDeveloped by Ethan Akiyama and Edward Garcia\n\nArt by Emily Jing",
+        "text": "Due to your inability to operate a delivery vehicle without destroying it and everything around it, \nwe have decided to let your begin your search for a new job (hopefully not another delivery driver position). \nThank you for driving with us,\n\nNozama",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -207,87 +159,87 @@
       }
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "ExtraAssets",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "Start_Over_Button",
+      "type": "PanelSpriteButton::PanelSpriteButton",
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Pee Bar and Button assets courtesy of Gdevelop",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "Pee Bar and Button assets courtesy of Gdevelop",
-        "font": "",
-        "textAlignment": "left",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "Inspiration",
-      "smoothed": true,
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "This game was inspired by an unnamed company that enforces extremely strict delivery quotas on its drivers.\nDue to the intense nature of these quotas, many drivers are forced to give up their bathroom breaks in order to meet them.\nThe majority of these drivers resort to peeing in bottles.",
-      "font": "",
-      "textAlignment": "center",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
       },
-      "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
-        "isShadowEnabled": false,
-        "italic": false,
-        "outlineColor": "255;255;255",
-        "outlineThickness": 2,
-        "shadowAngle": 90,
-        "shadowBlurRadius": 2,
-        "shadowColor": "0;0;0",
-        "shadowDistance": 4,
-        "shadowOpacity": 127,
-        "smoothed": true,
-        "underlined": false,
-        "text": "This game was inspired by an unnamed company that enforces extremely strict delivery quotas on its drivers.\nDue to the intense nature of these quotas, many drivers are forced to give up their bathroom breaks in order to meet them.\nThe majority of these drivers resort to peeing in bottles.",
-        "font": "",
-        "textAlignment": "center",
-        "verticalTextAlignment": "top",
-        "characterSize": 20,
-        "color": "0;0;0"
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Title Screen",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Title Screen",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "139;87;42"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
       }
     }
   ],
@@ -295,20 +247,44 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "ThankYou"
+        "objectName": "TerminationNotice"
       },
       {
-        "objectName": "CreatedBy"
+        "objectName": "NewText"
       },
       {
-        "objectName": "ExtraAssets"
-      },
-      {
-        "objectName": "Inspiration"
+        "objectName": "Start_Over_Button"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "Start_Over_Button",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title\"",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,

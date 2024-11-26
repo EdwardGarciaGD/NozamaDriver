@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8700232859857588,
+    "zoomFactor": 0.9610368693715051,
     "windowMask": false
   },
   "objectsGroups": [
@@ -1313,7 +1313,7 @@
       "width": 24,
       "x": -155,
       "y": 385,
-      "zOrder": 80,
+      "zOrder": 284,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4544,6 +4544,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PointDisplay",
+      "persistentUuid": "215f1be0-b6c2-4e91-8797-2b1ed03bed87",
+      "width": 0,
+      "x": 55,
+      "y": 33,
+      "zOrder": 286,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -4861,6 +4877,27 @@
           "parameters": [
             "",
             "\"tutorialTimer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PointDisplay",
+            "Text",
+            "=",
+            "\"Score: \" + Points"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Points",
+            "=",
+            "0"
           ]
         }
       ]
@@ -5247,6 +5284,27 @@
                 "Health",
                 "="
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Points",
+                "-",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "PointDisplay",
+                "Text",
+                "=",
+                "\"Score: \" + Points"
+              ]
             }
           ],
           "events": [
@@ -5353,6 +5411,27 @@
                 "",
                 "30",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Points",
+                "+",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "PointDisplay",
+                "Text",
+                "=",
+                "\"Score: \" + Points"
               ]
             }
           ]
@@ -5551,6 +5630,27 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "PointDisplay",
+                "Text",
+                "=",
+                "\"Score: \" + Points"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Points",
+                "-",
+                "5"
+              ]
             }
           ]
         }
@@ -5588,7 +5688,7 @@
               },
               "parameters": [
                 "",
-                "\"Title\"",
+                "\"Game Over\"",
                 ""
               ]
             }

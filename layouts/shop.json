@@ -1156,6 +1156,10 @@
       "type": "FlippableCapability::FlippableBehavior"
     },
     {
+      "name": "Health",
+      "type": "Health::Health"
+    },
+    {
       "name": "InOnScreen",
       "type": "IsOnScreen::InOnScreen"
     },

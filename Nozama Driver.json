@@ -2162,12 +2162,12 @@
                         "y": 37.5
                       },
                       {
-                        "x": 52.5,
-                        "y": 74.5
+                        "x": 49,
+                        "y": 70.5
                       },
                       {
-                        "x": 35,
-                        "y": 74.5
+                        "x": 38,
+                        "y": 70.5
                       }
                     ]
                   ]
@@ -2404,7 +2404,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "tree1",
       "type": "Sprite",
@@ -2439,20 +2439,24 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 13,
+                        "x": 14,
+                        "y": 19.5
+                      },
+                      {
+                        "x": 21,
                         "y": 2
                       },
                       {
-                        "x": 29,
-                        "y": 2
+                        "x": 27.5,
+                        "y": 19.5
                       },
                       {
-                        "x": 29,
-                        "y": 33
+                        "x": 25,
+                        "y": 31.5
                       },
                       {
-                        "x": 13,
-                        "y": 33
+                        "x": 16.5,
+                        "y": 31.5
                       }
                     ]
                   ]
@@ -2464,7 +2468,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "tree2",
       "type": "Sprite",
@@ -2499,20 +2503,28 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 5
+                        "x": 10,
+                        "y": 17.5
                       },
                       {
-                        "x": 34,
-                        "y": 5
+                        "x": 15,
+                        "y": 6.5
                       },
                       {
-                        "x": 34,
-                        "y": 29
+                        "x": 27.5,
+                        "y": 7
                       },
                       {
-                        "x": 9,
-                        "y": 29
+                        "x": 33,
+                        "y": 17.5
+                      },
+                      {
+                        "x": 25,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 17.5,
+                        "y": 27.5
                       }
                     ]
                   ]
@@ -2684,6 +2696,48 @@
         "characterSize": 16,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PointDisplay",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score: 0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score: 0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2778,6 +2832,9 @@
           },
           {
             "objectName": "HealthDisplay"
+          },
+          {
+            "objectName": "PointDisplay"
           },
           {
             "objectName": "health"
@@ -2879,6 +2936,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/credits"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over"
     }
   ],
   "externalEvents": [],
