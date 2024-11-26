@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.5289132892233759,
+    "zoomFactor": 0.8700232859857588,
     "windowMask": false
   },
   "objectsGroups": [
@@ -929,14 +929,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "van",
       "persistentUuid": "38d902b6-0da8-4361-a2eb-c07b92a03f42",
-      "width": 80,
-      "x": 505,
+      "width": 77,
+      "x": 503,
       "y": 356,
       "zOrder": 182,
       "numberProperties": [],
@@ -4527,6 +4527,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PeeMeterText",
+      "persistentUuid": "d01c4acf-9515-44fc-baae-c0b0bc0c65fd",
+      "width": 171,
+      "x": 527,
+      "y": 16,
+      "zOrder": 285,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -5170,6 +5187,17 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "Health::Health::IsDamageCooldownActive"
+              },
+              "parameters": [
+                "van",
+                "Health",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -5200,36 +5228,54 @@
             },
             {
               "type": {
-                "value": "Flash::Flash::Flash"
-              },
-              "parameters": [
-                "van",
-                "Flash",
-                "0.3",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Bounce::Bounce::BounceOff"
-              },
-              "parameters": [
-                "van",
-                "Bounce",
-                "CollidableObstacles",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
                 "",
                 "Sounds\\Crash Collision.mp3",
                 "",
-                "30",
+                "25",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Health::Health::TriggerDamageCooldown"
+              },
+              "parameters": [
+                "van",
+                "Health",
+                "="
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Health::Health::IsDamageCooldownActive"
+                  },
+                  "parameters": [
+                    "van",
+                    "Health",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "van",
+                    "Flash",
+                    "2",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -5305,7 +5351,7 @@
                 "",
                 "Sounds\\Package Delivered.mp3",
                 "",
-                "50",
+                "30",
                 ""
               ]
             }
@@ -5837,10 +5883,6 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "Bounce",
-      "type": "Bounce::Bounce"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -5855,6 +5897,10 @@
     {
       "name": "Flippable",
       "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Health",
+      "type": "Health::Health"
     },
     {
       "name": "InOnScreen",

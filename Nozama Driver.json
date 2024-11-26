@@ -762,6 +762,24 @@
         "name": "tree2.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "trashcan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "trashcan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "dumpster.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "dumpster.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1935,16 +1953,6 @@
       "effects": [],
       "behaviors": [
         {
-          "name": "Bounce",
-          "type": "Bounce::Bounce",
-          "OldX": 0,
-          "OldY": 2.0247e-320,
-          "OldForceAngle": 2.0247e-320,
-          "OldForceLength": 2.0247e-320,
-          "NormalAngle": 2.0247e-320,
-          "BounceCount": 0
-        },
-        {
           "isFolded": true,
           "name": "FireBullet",
           "type": "FireBullet::FireBullet",
@@ -1982,6 +1990,34 @@
           "HalfPeriodTime": 0.1,
           "IsFlashing": false,
           "FlashDuration": 0
+        },
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 10,
+          "CurrentHealth": 0,
+          "MaxHealth": 10,
+          "DamageCooldown": 2,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
         },
         {
           "isFolded": true,
@@ -2106,8 +2142,8 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 35,
-                        "y": 38
+                        "x": 35.5,
+                        "y": 37.5
                       },
                       {
                         "x": 39.5,
@@ -2115,7 +2151,11 @@
                       },
                       {
                         "x": 48,
-                        "y": 30
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
                       },
                       {
                         "x": 52.5,
@@ -2482,6 +2522,168 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "TrashCan",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "trashcan.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 15
+                      },
+                      {
+                        "x": 28,
+                        "y": 15
+                      },
+                      {
+                        "x": 28,
+                        "y": 43
+                      },
+                      {
+                        "x": 7,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dumpster",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "dumpster.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 314,
+                        "y": 497
+                      },
+                      {
+                        "x": 913,
+                        "y": 497
+                      },
+                      {
+                        "x": 913,
+                        "y": 955
+                      },
+                      {
+                        "x": 314,
+                        "y": 955
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PeeMeterText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Bladder Level",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 16,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Bladder Level",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 16,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2501,6 +2703,9 @@
       {
         "folderName": "Obstacles",
         "children": [
+          {
+            "objectName": "Dumpster"
+          },
           {
             "objectName": "mapBorder"
           },
@@ -2530,6 +2735,9 @@
           },
           {
             "objectName": "tree2"
+          },
+          {
+            "objectName": "TrashCan"
           }
         ]
       },
@@ -2564,6 +2772,9 @@
           },
           {
             "objectName": "Tutorial"
+          },
+          {
+            "objectName": "PeeMeterText"
           },
           {
             "objectName": "HealthDisplay"
@@ -2620,6 +2831,12 @@
         },
         {
           "name": "tree2"
+        },
+        {
+          "name": "TrashCan"
+        },
+        {
+          "name": "Dumpster"
         }
       ]
     }
@@ -2666,6 +2883,10 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/health"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/isonscreen"
