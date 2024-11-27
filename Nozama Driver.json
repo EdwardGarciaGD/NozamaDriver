@@ -2226,90 +2226,13 @@
       ],
       "animations": [
         {
-          "name": "notDriving",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "driving",
-                  "points": [
-                    {
-                      "name": "PackageSpawn",
-                      "x": 44,
-                      "y": 37
-                    },
-                    {
-                      "name": "PackageDirection",
-                      "x": 74,
-                      "y": 50.5
-                    },
-                    {
-                      "name": "PackageDirection1",
-                      "x": 20.5,
-                      "y": 50
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 44.5,
-                    "y": 49.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 44.5,
-                    "y": 50
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 35.5,
-                        "y": 37.5
-                      },
-                      {
-                        "x": 39.5,
-                        "y": 29.5
-                      },
-                      {
-                        "x": 48,
-                        "y": 29.5
-                      },
-                      {
-                        "x": 50.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 52.5,
-                        "y": 37.5
-                      },
-                      {
-                        "x": 49,
-                        "y": 70.5
-                      },
-                      {
-                        "x": 38,
-                        "y": 70.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Driving",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.06,
+              "timeBetweenFrames": 0.09,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -2506,6 +2429,83 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "van_scaled_2x_pngcrushed.png",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "notDriving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "driving",
                   "points": [
                     {
                       "name": "PackageSpawn",

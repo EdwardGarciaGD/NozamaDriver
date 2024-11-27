@@ -5621,7 +5621,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Bladder Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5765,7 +5764,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "name": "Game Over (Need to reset global variables still) why explosion no work",
+      "name": "Game Over (Need to reset global variables still)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -5778,9 +5777,15 @@
               },
               "parameters": [
                 "Health",
-                "=",
+                "<=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -5793,16 +5798,6 @@
                 "Animation",
                 "=",
                 "\"Explosion\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game Over\"",
-                ""
               ]
             }
           ]
@@ -5820,7 +5815,27 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "van",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -5830,6 +5845,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5977,37 +5993,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::IsMoving"
-              },
-              "parameters": [
-                "van",
-                "TopDownMovement"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::SetName"
-              },
-              "parameters": [
-                "van",
-                "Animation",
-                "=",
-                "\"Driving\""
-              ]
-            }
-          ]
-        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -6020,6 +6010,45 @@
                 "van",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "van",
+                "Animation",
+                "=",
+                "\"notDriving\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "van",
+                "TopDownMovement"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
