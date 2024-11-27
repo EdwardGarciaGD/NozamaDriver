@@ -49,8 +49,8 @@
       "name": "Speed_Upgrade",
       "persistentUuid": "95af4dbe-f4d2-4e87-b98b-d640a890674e",
       "width": 0,
-      "x": 224,
-      "y": 384,
+      "x": 200,
+      "y": 380,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -65,7 +65,7 @@
       "name": "SpeedUpgrade",
       "persistentUuid": "1475a3d0-39a8-4da2-8681-5bcf50750175",
       "width": 0,
-      "x": 224,
+      "x": 192,
       "y": 448,
       "zOrder": 3,
       "numberProperties": [],
@@ -81,7 +81,7 @@
       "name": "ArmorUpgrade",
       "persistentUuid": "6515230c-b4e1-4e32-a546-e2f24a4f9e8e",
       "width": 0,
-      "x": 736,
+      "x": 768,
       "y": 448,
       "zOrder": 4,
       "numberProperties": [],
@@ -97,7 +97,7 @@
       "name": "ArmorUpgrade2",
       "persistentUuid": "ba0d17b2-9f21-429e-9b66-7c9f37c771a7",
       "width": 0,
-      "x": 781,
+      "x": 798,
       "y": 384,
       "zOrder": 5,
       "numberProperties": [],
@@ -214,6 +214,70 @@
       "x": 24,
       "y": 40,
       "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FastHands",
+      "persistentUuid": "ee199ae4-611e-496b-af36-31c2b16f44ae",
+      "width": 0,
+      "x": 480,
+      "y": 448,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FastHandsText",
+      "persistentUuid": "37429820-b656-4c27-b005-7a29191e2a37",
+      "width": 0,
+      "x": 490,
+      "y": 367,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Speed_Display",
+      "persistentUuid": "6d72a448-255f-44a2-a93e-20863999d87f",
+      "width": 0,
+      "x": 959,
+      "y": 61,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ReloadDisplay",
+      "persistentUuid": "f41f7e4d-2974-4c49-ba92-cc72d537a528",
+      "width": 0,
+      "x": 939,
+      "y": 101,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -639,6 +703,216 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "615de0316452630b9f4f6a39decc82e2449b82c1afd1ff24d6470dad2922177b",
+      "name": "FastHands",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 10,
+        "BottomPadding": 32,
+        "TopPadding": 16,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Idle": {
+          "bottomMargin": 32,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 256
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "Purchase",
+          "font": "",
+          "textAlignment": "center",
+          "characterSize": 30,
+          "color": {
+            "b": 42,
+            "g": 87,
+            "r": 139
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Purchase",
+            "font": "",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 30,
+            "color": "139;87;42"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 106,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Yellow Button_Pressed.png",
+          "tiled": true,
+          "topMargin": 32,
+          "width": 256
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "FastHandsText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Upgrade Package Reload\nSpeed (-0.2s)\n$60",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Upgrade Package Reload\nSpeed (-0.2s)\n$60",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Speed_Display",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Speed: 200",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Speed: 200",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ReloadDisplay",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Reload Speed: 1s",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Reload Speed: 1s",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -664,6 +938,18 @@
       },
       {
         "objectName": "ArmorUpgrade2"
+      },
+      {
+        "objectName": "FastHands"
+      },
+      {
+        "objectName": "FastHandsText"
+      },
+      {
+        "objectName": "Speed_Display"
+      },
+      {
+        "objectName": "ReloadDisplay"
       }
     ]
   },
@@ -701,6 +987,28 @@
             "Text",
             "=",
             "Health"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ReloadDisplay",
+            "Text",
+            "=",
+            "\"Reload Speed: \" + ToString(Reload)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Speed_Display",
+            "Text",
+            "=",
+            "\"Speed: \" + ToString(Speed)"
           ]
         }
       ]
@@ -857,17 +1165,6 @@
       "actions": [
         {
           "type": {
-            "value": "TopDownMovementBehavior::MaxSpeed"
-          },
-          "parameters": [
-            "van",
-            "TopDownMovement",
-            "+",
-            "20"
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -897,6 +1194,113 @@
             "",
             "60",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Speed",
+            "+",
+            "20"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Speed_Display",
+            "Text",
+            "=",
+            "\"Speed: \" + ToString(Speed)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "FastHands",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Points",
+            ">=",
+            "60"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Points",
+            "-",
+            "60"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Money",
+            "Text",
+            "=",
+            "\"$\" + Points"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Purchase.mp3",
+            "",
+            "60",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Reload",
+            "-",
+            ".2"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ReloadDisplay",
+            "Text",
+            "=",
+            "\"Reload Speed: \" + ToString(Reload)"
           ]
         }
       ]
@@ -964,6 +1368,18 @@
         },
         {
           "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Purchase.mp3",
+            "",
+            "60",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -981,18 +1397,6 @@
             "Text",
             "=",
             "Health"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Sounds\\Purchase.mp3",
-            "",
-            "60",
-            ""
           ]
         }
       ]
@@ -1039,27 +1443,6 @@
         },
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "vanArmor",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-          },
-          "parameters": [
-            "armorDisplay",
-            "Text",
-            "=",
-            "vanArmor"
-          ]
-        },
-        {
-          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
@@ -1079,6 +1462,27 @@
             "",
             "60",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "vanArmor",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "armorDisplay",
+            "Text",
+            "=",
+            "vanArmor"
           ]
         }
       ]
@@ -1134,10 +1538,6 @@
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
-    },
-    {
-      "name": "Bounce",
-      "type": "Bounce::Bounce"
     },
     {
       "name": "Effect",

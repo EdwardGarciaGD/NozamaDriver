@@ -4881,13 +4881,12 @@
         },
         {
           "type": {
-            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+            "value": "SetNumberVariable"
           },
           "parameters": [
-            "PointDisplay",
-            "Text",
+            "Points",
             "=",
-            "\"Score: \" + Points"
+            "0"
           ]
         },
         {
@@ -4895,9 +4894,40 @@
             "value": "SetNumberVariable"
           },
           "parameters": [
-            "Points",
+            "Health",
             "=",
-            "0"
+            "10"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Reload",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Speed",
+            "=",
+            "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PointDisplay",
+            "Text",
+            "=",
+            "\"Score: \" + Points"
           ]
         }
       ]
@@ -5000,6 +5030,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Throw Packages",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5243,10 +5274,9 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "van",
                 "Health",
                 "-",
                 "1"
@@ -5260,7 +5290,7 @@
                 "HealthDisplay",
                 "Text",
                 "=",
-                "ToString(van.Health)"
+                "ToString(Health)"
               ]
             },
             {
@@ -5529,6 +5559,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Bladder Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5671,10 +5702,9 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "van",
                 "Health",
                 "=",
                 "0"
@@ -5724,26 +5754,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Health",
-                "=",
-                "van.Health"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Points",
-                "=",
-                "(10 * van.PackagesDelivered) - (5 * (10 - van.Health)) - (PeeContainer.NumOfBottles * 5)"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -5762,6 +5772,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Package Indicator",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5857,6 +5868,73 @@
                     ""
                   ]
                 }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Animation NVM we cant animate the van cuz its been resized",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "van",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "van",
+                "Animation",
+                "=",
+                "\"driving\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "TopDownMovementBehavior::IsMoving"
+              },
+              "parameters": [
+                "van",
+                "TopDownMovement"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "van",
+                "Animation",
+                "=",
+                "\"driving\""
               ]
             }
           ]

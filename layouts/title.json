@@ -324,10 +324,6 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
-      "name": "Bounce",
-      "type": "Bounce::Bounce"
-    },
-    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },

@@ -780,6 +780,15 @@
         "name": "dumpster.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/driving.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "driving",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1992,6 +2001,7 @@
           "FlashDuration": 0
         },
         {
+          "isFolded": true,
           "name": "Health",
           "type": "Health::Health",
           "Health": 10,
@@ -2100,17 +2110,17 @@
       ],
       "animations": [
         {
-          "name": "van_scaled_2x_pngcrushed",
+          "name": "driving",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "van_scaled_2x_pngcrushed.png",
+                  "image": "driving",
                   "points": [
                     {
                       "name": "PackageSpawn",
@@ -2902,7 +2912,7 @@
     {
       "name": "Health",
       "type": "number",
-      "value": 0
+      "value": 10
     },
     {
       "name": "Points",
@@ -2918,6 +2928,16 @@
       "name": "soundChannel",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Speed",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "Reload",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
