@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.546875,
+    "zoomFactor": 0.6040838749988866,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -127,7 +127,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Due to your inability to operate a delivery vehicle without destroying it and everything around it, \nwe have decided to let your begin your search for a new job (hopefully not another delivery driver position). \nThank you for driving with us,\n\nNozama",
+      "string": "Due to your inability to operate a delivery vehicle without destroying it and everything around it, \nwe have decided to let your begin your search for a new job (hopefully not another delivery driver position). \nThank you for driving with us,\n\nBest regards, Nozama Inc.",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -150,7 +150,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Due to your inability to operate a delivery vehicle without destroying it and everything around it, \nwe have decided to let your begin your search for a new job (hopefully not another delivery driver position). \nThank you for driving with us,\n\nNozama",
+        "text": "Due to your inability to operate a delivery vehicle without destroying it and everything around it, \nwe have decided to let your begin your search for a new job (hopefully not another delivery driver position). \nThank you for driving with us,\n\nBest regards, Nozama Inc.",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -280,6 +280,42 @@
             "",
             "\"Title\"",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Start_Over_Button",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Button Touch.mp3",
+            "",
+            "50",
+            "1.4"
           ]
         }
       ]

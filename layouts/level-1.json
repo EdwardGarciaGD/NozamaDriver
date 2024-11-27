@@ -4929,13 +4929,7 @@
             "=",
             "\"Score: \" + Points"
           ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": [
+        },
         {
           "type": {
             "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
@@ -4946,7 +4940,20 @@
             "van.Variable(PeeLevel)",
             ""
           ]
-        },
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "SetNumberObjectVariable"
@@ -4956,6 +4963,38 @@
             "PeeLevel",
             "=",
             "clamp(van.Variable(PeeLevel), 0, 11)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Packages",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Bottles",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\LevelOne.mp3",
+            "yes",
+            "40",
+            ""
           ]
         }
       ]
@@ -4985,6 +5024,17 @@
             "PeeLevel",
             "+",
             "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+          },
+          "parameters": [
+            "PlayerPeeBar",
+            "=",
+            "van.Variable(PeeLevel)",
+            ""
           ]
         },
         {
@@ -5205,6 +5255,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Health and Collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5411,11 +5462,10 @@
             },
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "van",
-                "PackagesDelivered",
+                "Packages",
                 "+",
                 "1"
               ]
@@ -5428,7 +5478,7 @@
                 "PackagesDisplay",
                 "Text",
                 "=",
-                "ToString(van.PackagesDelivered)"
+                "Packages"
               ]
             },
             {
@@ -5593,6 +5643,17 @@
             },
             {
               "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+              },
+              "parameters": [
+                "PlayerPeeBar",
+                "=",
+                "van.Variable(PeeLevel)",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
               },
               "parameters": [
@@ -5631,11 +5692,10 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberObjectVariable"
+                "value": "SetNumberVariable"
               },
               "parameters": [
-                "PeeContainer",
-                "NumOfBottles",
+                "Bottles",
                 "+",
                 "1"
               ]
@@ -5648,7 +5708,7 @@
                 "BottleDisplay",
                 "Text",
                 "=",
-                "ToString(PeeContainer.NumOfBottles)"
+                "Bottles"
               ]
             },
             {
@@ -5693,6 +5753,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Game Over (Need to reset global variables still)",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5741,11 +5802,10 @@
           "conditions": [
             {
               "type": {
-                "value": "NumberObjectVariable"
+                "value": "NumberVariable"
               },
               "parameters": [
-                "van",
-                "PackagesDelivered",
+                "Packages",
                 "=",
                 "10"
               ]
@@ -5880,6 +5940,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Animation NVM we cant animate the van cuz its been resized",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

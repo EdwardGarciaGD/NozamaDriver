@@ -789,6 +789,16 @@
         "name": "driving",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Sounds/LevelOne.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\LevelOne.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -860,13 +870,7 @@
       "name": "PeeContainer",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [
-        {
-          "name": "NumOfBottles",
-          "type": "number",
-          "value": 0
-        }
-      ],
+      "variables": [],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -1949,11 +1953,6 @@
           "value": 10
         },
         {
-          "name": "PackagesDelivered",
-          "type": "number",
-          "value": 0
-        },
-        {
           "name": "PeeLevel",
           "type": "number",
           "value": 0
@@ -2925,11 +2924,6 @@
       "value": 0
     },
     {
-      "name": "soundChannel",
-      "type": "number",
-      "value": 0
-    },
-    {
       "name": "Speed",
       "type": "number",
       "value": 100
@@ -2938,6 +2932,16 @@
       "name": "Reload",
       "type": "number",
       "value": 1
+    },
+    {
+      "name": "Packages",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "Bottles",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
