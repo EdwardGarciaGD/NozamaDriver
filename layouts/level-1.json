@@ -4940,6 +4940,18 @@
             "van.Variable(PeeLevel)",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Start Game.wav",
+            "",
+            "40",
+            ""
+          ]
         }
       ]
     },
@@ -5753,8 +5765,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Game Over (Need to reset global variables still)",
+      "name": "Game Over (Need to reset global variables still) why explosion no work",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -5775,6 +5786,17 @@
           "actions": [
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "van",
+                "Animation",
+                "=",
+                "\"Explosion\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -5784,6 +5806,21 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "van",
+                "Animation"
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "parameters": []
@@ -5940,8 +5977,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
-      "name": "Animation NVM we cant animate the van cuz its been resized",
+      "name": "Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
@@ -5967,7 +6003,7 @@
                 "van",
                 "Animation",
                 "=",
-                "\"driving\""
+                "\"Driving\""
               ]
             }
           ]
@@ -5995,7 +6031,7 @@
                 "van",
                 "Animation",
                 "=",
-                "\"driving\""
+                "\"Driving\""
               ]
             }
           ]

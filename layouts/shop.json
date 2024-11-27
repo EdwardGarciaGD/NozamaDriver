@@ -3,11 +3,11 @@
   "disableInputWhenNotFocused": true,
   "mangledName": "Shop",
   "name": "Shop",
-  "r": 209,
+  "r": 215,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 235,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7370816317994029,
+    "zoomFactor": 0.8141881203709918,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -259,8 +259,8 @@
       "name": "Speed_Display",
       "persistentUuid": "6d72a448-255f-44a2-a93e-20863999d87f",
       "width": 0,
-      "x": 959,
-      "y": 61,
+      "x": 20,
+      "y": 213,
       "zOrder": 15,
       "numberProperties": [],
       "stringProperties": [],
@@ -275,9 +275,25 @@
       "name": "ReloadDisplay",
       "persistentUuid": "f41f7e4d-2974-4c49-ba92-cc72d537a528",
       "width": 0,
-      "x": 939,
-      "y": 101,
+      "x": 20,
+      "y": 248,
       "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CenterOfScreen",
+      "persistentUuid": "011c8821-bb09-49a4-8140-f51143c0735d",
+      "width": 0,
+      "x": 606,
+      "y": 322,
+      "zOrder": 17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -954,6 +970,24 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "CenterOfScreen",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [

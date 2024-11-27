@@ -799,6 +799,123 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/van_scaled_2x_pngcrushed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "van_scaled_2x_pngcrushed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/van_scaled_2x_pngcrushed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "van_scaled_2x_pngcrushed2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/van_scaled_2x_pngcrushed3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "van_scaled_2x_pngcrushed3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Explosion10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Explosion10",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2109,7 +2226,7 @@
       ],
       "animations": [
         {
-          "name": "driving",
+          "name": "notDriving",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2120,6 +2237,864 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "driving",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Driving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.06,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "van_scaled_2x_pngcrushed",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "van_scaled_2x_pngcrushed2",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "van_scaled_2x_pngcrushed3",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "van_scaled_2x_pngcrushed.png",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Explosion",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion2",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion3",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion4",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion5",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion6",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion7",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion8",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion9",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Explosion10",
                   "points": [
                     {
                       "name": "PackageSpawn",
@@ -2747,6 +3722,48 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "CenterOfScreen",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -2865,6 +3882,9 @@
           },
           {
             "objectName": "armor"
+          },
+          {
+            "objectName": "CenterOfScreen"
           }
         ]
       }

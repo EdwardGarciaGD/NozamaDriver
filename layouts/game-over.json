@@ -9,7 +9,7 @@
   "title": "",
   "v": 153,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.6040838749988866,
+    "snap": false,
+    "zoomFactor": 0.9296874999999998,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -68,6 +68,22 @@
       "x": 512,
       "y": 310,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CenterOfScreen",
+      "persistentUuid": "79191b10-bd8c-4d0f-829d-61f0fe96164f",
+      "width": 0,
+      "x": 634,
+      "y": 270,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -258,6 +274,24 @@
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "CenterOfScreen",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [

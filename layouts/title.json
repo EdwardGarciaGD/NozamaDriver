@@ -35,7 +35,7 @@
       "width": 0,
       "x": 482,
       "y": 287,
-      "zOrder": 1,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -52,6 +52,22 @@
       "x": 455,
       "y": 187,
       "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "van",
+      "persistentUuid": "469c7644-07d8-4787-b6f7-d5aeec5d5be1",
+      "width": 0,
+      "x": 615,
+      "y": 331,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -199,6 +215,24 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "van",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
@@ -254,18 +288,6 @@
           "parameters": [
             "",
             "\"Level 1\"",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Sounds\\Start Game.wav",
-            "",
-            "40",
             ""
           ]
         }

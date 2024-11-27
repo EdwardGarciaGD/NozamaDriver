@@ -1,15 +1,15 @@
 {
-  "b": 209,
+  "b": 206,
   "disableInputWhenNotFocused": true,
   "mangledName": "Credits",
   "name": "Credits",
-  "r": 209,
+  "r": 240,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 238,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.546875,
+    "snap": false,
+    "zoomFactor": 0.8141881203709912,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -116,6 +116,22 @@
       "x": 96,
       "y": 352,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CenterOfScreen",
+      "persistentUuid": "8b01f0f1-f194-4d6b-9518-2f858616248e",
+      "width": 0,
+      "x": 648,
+      "y": 277,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -308,7 +324,26 @@
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "CenterOfScreen",
+            "",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
