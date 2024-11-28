@@ -918,23 +918,120 @@
         "userAdded": false
       },
       {
-        "file": "Sounds/Game Over.mp3",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "assets/nightbuilding1.png",
+        "kind": "image",
         "metadata": "",
-        "name": "Sounds\\Game Over.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "assets/nightbuilding1.png",
+        "smoothed": true,
         "userAdded": false
       },
       {
-        "file": "Sounds/Start Screen.mp3",
-        "kind": "audio",
+        "alwaysLoaded": false,
+        "file": "assets/nightbuilding2.png",
+        "kind": "image",
         "metadata": "",
-        "name": "Sounds\\Start Screen.mp3",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
+        "name": "assets/nightbuilding2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nightbuilding3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/nightbuilding3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nightbuilding4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/nightbuilding4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bush1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/bush1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0 copy 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/pixil-frame-0 copy 11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nighttree1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/nighttree1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/nighttree2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/nighttree2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/streetlight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/streetlight.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_pixil-frame-0 copy 11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/pixil-frame-0 copy 11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_pixil-frame-0 copy12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/pixil-frame-0 copy12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_nighttree1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/nighttree1",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_bush1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/bush1",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -1369,9 +1466,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1392,7 +1489,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1411,9 +1508,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1434,7 +1531,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1453,9 +1550,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1476,7 +1573,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -1495,9 +1592,9 @@
       "textAlignment": "center",
       "characterSize": 33,
       "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
+        "b": 255,
+        "g": 255,
+        "r": 255
       },
       "content": {
         "bold": false,
@@ -1518,7 +1615,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 33,
-        "color": "0;0;0"
+        "color": "255;255;255"
       }
     },
     {
@@ -2246,13 +2343,90 @@
       ],
       "animations": [
         {
+          "name": "notDriving",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "driving",
+                  "points": [
+                    {
+                      "name": "PackageSpawn",
+                      "x": 44,
+                      "y": 37
+                    },
+                    {
+                      "name": "PackageDirection",
+                      "x": 74,
+                      "y": 50.5
+                    },
+                    {
+                      "name": "PackageDirection1",
+                      "x": 20.5,
+                      "y": 50
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 44.5,
+                    "y": 49.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 44.5,
+                    "y": 50
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 35.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 39.5,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 48,
+                        "y": 29.5
+                      },
+                      {
+                        "x": 50.5,
+                        "y": 32.5
+                      },
+                      {
+                        "x": 52.5,
+                        "y": 37.5
+                      },
+                      {
+                        "x": 49,
+                        "y": 70.5
+                      },
+                      {
+                        "x": 38,
+                        "y": 70.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Driving",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.09,
+              "timeBetweenFrames": 0.06,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -2449,83 +2623,6 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "van_scaled_2x_pngcrushed.png",
-                  "points": [
-                    {
-                      "name": "PackageSpawn",
-                      "x": 44,
-                      "y": 37
-                    },
-                    {
-                      "name": "PackageDirection",
-                      "x": 74,
-                      "y": 50.5
-                    },
-                    {
-                      "name": "PackageDirection1",
-                      "x": 20.5,
-                      "y": 50
-                    }
-                  ],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 44.5,
-                    "y": 49.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 44.5,
-                    "y": 50
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 35.5,
-                        "y": 37.5
-                      },
-                      {
-                        "x": 39.5,
-                        "y": 29.5
-                      },
-                      {
-                        "x": 48,
-                        "y": 29.5
-                      },
-                      {
-                        "x": 50.5,
-                        "y": 32.5
-                      },
-                      {
-                        "x": 52.5,
-                        "y": 37.5
-                      },
-                      {
-                        "x": 49,
-                        "y": 70.5
-                      },
-                      {
-                        "x": 38,
-                        "y": 70.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "notDriving",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "driving",
                   "points": [
                     {
                       "name": "PackageSpawn",
@@ -3600,66 +3697,6 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Dumpster",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "dumpster.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 314,
-                        "y": 497
-                      },
-                      {
-                        "x": 913,
-                        "y": 497
-                      },
-                      {
-                        "x": 913,
-                        "y": 955
-                      },
-                      {
-                        "x": 314,
-                        "y": 955
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
@@ -3784,6 +3821,549 @@
         "characterSize": 20,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nightbuilding1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/nightbuilding1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 12
+                      },
+                      {
+                        "x": 43,
+                        "y": 12
+                      },
+                      {
+                        "x": 43,
+                        "y": 41
+                      },
+                      {
+                        "x": 10,
+                        "y": 41
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nightbuilding2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/nightbuilding2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 6
+                      },
+                      {
+                        "x": 38,
+                        "y": 6
+                      },
+                      {
+                        "x": 38,
+                        "y": 45
+                      },
+                      {
+                        "x": 10,
+                        "y": 45
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nightbuilding3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/nightbuilding3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 16
+                      },
+                      {
+                        "x": 48,
+                        "y": 16
+                      },
+                      {
+                        "x": 48,
+                        "y": 40
+                      },
+                      {
+                        "x": 10,
+                        "y": 40
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "nightbuilding4",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/nightbuilding4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 14
+                      },
+                      {
+                        "x": 38,
+                        "y": 14
+                      },
+                      {
+                        "x": 38,
+                        "y": 38
+                      },
+                      {
+                        "x": 15,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bush1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/bush1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/bush1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 20,
+                        "y": 20
+                      },
+                      {
+                        "x": 30,
+                        "y": 20
+                      },
+                      {
+                        "x": 30,
+                        "y": 29
+                      },
+                      {
+                        "x": 20,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "bush2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/pixil-frame-0 copy 11",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/pixil-frame-0 copy 11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 19,
+                        "y": 13
+                      },
+                      {
+                        "x": 31,
+                        "y": 13
+                      },
+                      {
+                        "x": 31,
+                        "y": 37
+                      },
+                      {
+                        "x": 19,
+                        "y": 37
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "topdowntree",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets/nighttree1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/nighttree1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 29,
+                        "y": 21
+                      },
+                      {
+                        "x": 29,
+                        "y": 29
+                      },
+                      {
+                        "x": 21,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "topdowntree2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/nighttree2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      },
+                      {
+                        "x": 22,
+                        "y": 16
+                      },
+                      {
+                        "x": 14,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "streetlight",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/streetlight.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 19
+                      },
+                      {
+                        "x": 34,
+                        "y": 19
+                      },
+                      {
+                        "x": 34,
+                        "y": 25
+                      },
+                      {
+                        "x": 28,
+                        "y": 25
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3803,9 +4383,6 @@
       {
         "folderName": "Obstacles",
         "children": [
-          {
-            "objectName": "Dumpster"
-          },
           {
             "objectName": "mapBorder"
           },
@@ -3838,6 +4415,33 @@
           },
           {
             "objectName": "TrashCan"
+          },
+          {
+            "objectName": "nightbuilding1"
+          },
+          {
+            "objectName": "nightbuilding2"
+          },
+          {
+            "objectName": "nightbuilding3"
+          },
+          {
+            "objectName": "nightbuilding4"
+          },
+          {
+            "objectName": "bush1"
+          },
+          {
+            "objectName": "bush2"
+          },
+          {
+            "objectName": "topdowntree"
+          },
+          {
+            "objectName": "topdowntree2"
+          },
+          {
+            "objectName": "streetlight"
           }
         ]
       },
@@ -3940,9 +4544,6 @@
         },
         {
           "name": "TrashCan"
-        },
-        {
-          "name": "Dumpster"
         }
       ]
     }
@@ -3992,6 +4593,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level2"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
