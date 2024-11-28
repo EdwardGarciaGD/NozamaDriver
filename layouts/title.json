@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 136,
   "disableInputWhenNotFocused": true,
   "mangledName": "Title",
   "name": "Title",
-  "r": 209,
+  "r": 51,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 43,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -18,28 +18,12 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4950840073748889,
+    "zoomFactor": 0.6455105703311483,
     "windowMask": false
   },
   "objectsGroups": [],
   "variables": [],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "van",
-      "persistentUuid": "469c7644-07d8-4787-b6f7-d5aeec5d5be1",
-      "width": 0,
-      "x": 615,
-      "y": 331,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -52,7 +36,7 @@
       "width": 1278,
       "x": -1,
       "y": -7,
-      "zOrder": 4,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -70,6 +54,22 @@
       "x": 515,
       "y": 332,
       "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "CenterOfScreen",
+      "persistentUuid": "d0df3bd8-43f6-4b79-aee2-f1cce34a83c0",
+      "width": 0,
+      "x": 656,
+      "y": 421,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -288,7 +288,7 @@
           },
           "parameters": [
             "",
-            "van",
+            "CenterOfScreen",
             "",
             "",
             ""
