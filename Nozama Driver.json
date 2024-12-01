@@ -1081,6 +1081,51 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
           "name": "Red Button_Pressed.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_nighttree2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/nighttree2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_nighttree3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/nighttree3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_pixil-frame-0 copy13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/pixil-frame-0 copy13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_bush2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/bush2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_streetlight.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/streetlight",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1626,7 +1671,7 @@
     },
     {
       "assetStoreId": "",
-      "bold": false,
+      "bold": true,
       "italic": false,
       "name": "Tutorial",
       "smoothed": true,
@@ -1640,13 +1685,13 @@
       "textAlignment": "center",
       "characterSize": 33,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
-        "bold": false,
-        "isOutlineEnabled": false,
+        "bold": true,
+        "isOutlineEnabled": true,
         "isShadowEnabled": false,
         "italic": false,
         "outlineColor": "255;255;255",
@@ -1663,7 +1708,7 @@
         "textAlignment": "center",
         "verticalTextAlignment": "top",
         "characterSize": 33,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -3790,7 +3835,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "PointDisplay",
+      "name": "PointDisplayW",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -4131,7 +4176,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/bush1",
+                  "image": "assets/bush2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4147,20 +4192,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 20,
-                        "y": 20
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 30,
-                        "y": 20
+                        "x": 11,
+                        "y": 1
                       },
                       {
-                        "x": 30,
-                        "y": 29
+                        "x": 11,
+                        "y": 10
                       },
                       {
-                        "x": 20,
-                        "y": 29
+                        "x": 1,
+                        "y": 10
                       }
                     ]
                   ]
@@ -4192,7 +4237,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/pixil-frame-0 copy 11",
+                  "image": "assets/pixil-frame-0 copy13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4208,20 +4253,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 19,
-                        "y": 13
+                        "x": 9,
+                        "y": 3
                       },
                       {
-                        "x": 31,
-                        "y": 13
+                        "x": 21,
+                        "y": 3
                       },
                       {
-                        "x": 31,
-                        "y": 37
+                        "x": 21,
+                        "y": 27
                       },
                       {
-                        "x": 19,
-                        "y": 37
+                        "x": 9,
+                        "y": 27
                       }
                     ]
                   ]
@@ -4253,7 +4298,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/nighttree1",
+                  "image": "assets/nighttree2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4269,20 +4314,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 21,
-                        "y": 21
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 29,
-                        "y": 21
+                        "x": 10,
+                        "y": 2
                       },
                       {
-                        "x": 29,
-                        "y": 29
+                        "x": 10,
+                        "y": 10
                       },
                       {
-                        "x": 21,
-                        "y": 29
+                        "x": 2,
+                        "y": 10
                       }
                     ]
                   ]
@@ -4304,16 +4349,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/nighttree2",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/nighttree2.png",
+                  "image": "assets/nighttree3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4329,20 +4375,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 14,
-                        "y": 8
+                        "x": 3,
+                        "y": 3
                       },
                       {
-                        "x": 22,
-                        "y": 8
+                        "x": 11,
+                        "y": 3
                       },
                       {
-                        "x": 22,
-                        "y": 16
+                        "x": 11,
+                        "y": 11
                       },
                       {
-                        "x": 14,
-                        "y": 16
+                        "x": 3,
+                        "y": 11
                       }
                     ]
                   ]
@@ -4364,16 +4410,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/streetlight",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/streetlight.png",
+                  "image": "assets/streetlight",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4389,20 +4436,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 28,
-                        "y": 19
+                        "x": 2,
+                        "y": 2
                       },
                       {
-                        "x": 34,
-                        "y": 19
+                        "x": 8,
+                        "y": 2
                       },
                       {
-                        "x": 34,
-                        "y": 25
+                        "x": 8,
+                        "y": 8
                       },
                       {
-                        "x": 28,
-                        "y": 25
+                        "x": 2,
+                        "y": 8
                       }
                     ]
                   ]
@@ -4412,6 +4459,216 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PointDisplayB",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Score:",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Score:",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "HealthDisplayB",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ArmorDisplayB",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "BottleDisplayB",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "PackagesDisplayB",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "0",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "0",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4517,22 +4774,37 @@
             "objectName": "armorDisplay"
           },
           {
+            "objectName": "ArmorDisplayB"
+          },
+          {
             "objectName": "PackagesDisplay"
+          },
+          {
+            "objectName": "PackagesDisplayB"
           },
           {
             "objectName": "BottleDisplay"
           },
           {
-            "objectName": "Tutorial"
-          },
-          {
-            "objectName": "PeeMeterText"
+            "objectName": "BottleDisplayB"
           },
           {
             "objectName": "HealthDisplay"
           },
           {
-            "objectName": "PointDisplay"
+            "objectName": "HealthDisplayB"
+          },
+          {
+            "objectName": "PointDisplayW"
+          },
+          {
+            "objectName": "PointDisplayB"
+          },
+          {
+            "objectName": "PeeMeterText"
+          },
+          {
+            "objectName": "Tutorial"
           },
           {
             "objectName": "health"

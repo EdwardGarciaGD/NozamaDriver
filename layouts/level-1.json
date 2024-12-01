@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6244537826600209,
+    "zoomFactor": 1.8046714318874575,
     "windowMask": false
   },
   "objectsGroups": [
@@ -961,38 +961,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "HealthDisplay",
-      "persistentUuid": "a1cf5880-5d42-48da-ac7b-4d53518cf4eb",
-      "width": 0,
-      "x": 94,
-      "y": 298,
-      "zOrder": 57,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "PackagesDisplay",
-      "persistentUuid": "f2364ade-648a-470a-8696-b5182da0cfa0",
-      "width": 0,
-      "x": 100,
-      "y": 357,
-      "zOrder": 59,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 48,
       "height": 19,
@@ -1021,22 +989,6 @@
       "x": 32,
       "y": 388,
       "zOrder": 62,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
-      "name": "BottleDisplay",
-      "persistentUuid": "1e8a6339-5835-4e50-9c2d-0fc77b04ac1e",
-      "width": 0,
-      "x": 100,
-      "y": 418,
-      "zOrder": 63,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1134,8 +1086,8 @@
       "name": "Tutorial",
       "persistentUuid": "08a7dae3-8b62-4660-9688-97bfa60937d8",
       "width": 0,
-      "x": 407,
-      "y": 624,
+      "x": 403,
+      "y": 182,
       "zOrder": 69,
       "numberProperties": [],
       "stringProperties": [],
@@ -1169,22 +1121,6 @@
       "x": 829,
       "y": 493,
       "zOrder": 183,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "NeedsPackage",
-      "persistentUuid": "4fa7f475-03b2-4c6d-bb40-805590950c66",
-      "width": 0,
-      "x": 237,
-      "y": 270,
-      "zOrder": 153,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4551,12 +4487,60 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "PointDisplay",
-      "persistentUuid": "215f1be0-b6c2-4e91-8797-2b1ed03bed87",
+      "name": "PointDisplayB",
+      "persistentUuid": "fd14dd9c-29fa-47b9-bf8d-85e9ac366e40",
       "width": 0,
-      "x": 55,
-      "y": 33,
+      "x": 64,
+      "y": 59,
       "zOrder": 286,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "HealthDisplayB",
+      "persistentUuid": "323e8645-6683-4b0c-933c-4d0cb458cceb",
+      "width": 0,
+      "x": 101,
+      "y": 299,
+      "zOrder": 287,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "BottleDisplayB",
+      "persistentUuid": "372c7f6a-357f-4dfa-aa24-817f5a09442f",
+      "width": 0,
+      "x": 100,
+      "y": 418,
+      "zOrder": 288,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "PackagesDisplayB",
+      "persistentUuid": "8c6f1798-ae40-45ee-89cb-ff04fc6fd881",
+      "width": 0,
+      "x": 101,
+      "y": 359,
+      "zOrder": 289,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4924,7 +4908,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "PointDisplay",
+            "PointDisplayB",
             "Text",
             "=",
             "\"Score: \" + Points"
@@ -5349,7 +5333,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "HealthDisplay",
+                "HealthDisplayB",
                 "Text",
                 "=",
                 "ToString(Health)"
@@ -5392,7 +5376,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "PointDisplay",
+                "PointDisplayB",
                 "Text",
                 "=",
                 "\"Score: \" + Points"
@@ -5486,7 +5470,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "PackagesDisplay",
+                "PackagesDisplayB",
                 "Text",
                 "=",
                 "Packages"
@@ -5519,7 +5503,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "PointDisplay",
+                "PointDisplayB",
                 "Text",
                 "=",
                 "\"Score: \" + Points"
@@ -5620,7 +5604,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Bladder Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5716,7 +5699,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "BottleDisplay",
+                "BottleDisplayB",
                 "Text",
                 "=",
                 "Bottles"
@@ -5738,7 +5721,7 @@
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "PointDisplay",
+                "PointDisplayB",
                 "Text",
                 "=",
                 "\"Score: \" + Points"

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8141881203709918,
+    "zoomFactor": 0.5653158055126316,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -126,22 +126,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "HealthDisplay",
-      "persistentUuid": "1bc185d9-bbbe-4fc7-8c4b-d788ebc61aad",
-      "width": 0,
-      "x": 68,
-      "y": 100,
-      "zOrder": 7,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
       "name": "RepairVan",
       "persistentUuid": "43e173ce-77bc-4b16-9c93-9fdbe468014a",
       "width": 0,
@@ -164,22 +148,6 @@
       "x": 477,
       "y": 128,
       "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "armorDisplay",
-      "persistentUuid": "34b5db82-23a4-4277-a945-021ed484cc5d",
-      "width": 0,
-      "x": 71,
-      "y": 160,
-      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -314,6 +282,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "HealthDisplayB",
+      "persistentUuid": "aec4e402-428c-4035-9836-cf1fba081c46",
+      "width": 0,
+      "x": 65,
+      "y": 100,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ArmorDisplayB",
+      "persistentUuid": "5ac78cc5-7fdf-4185-a391-e8d0807ea619",
+      "width": 0,
+      "x": 65,
+      "y": 161,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "The_Shoppe",
+      "persistentUuid": "1c78aedc-abec-4816-859f-103e6b605a8d",
+      "width": 0,
+      "x": 441,
+      "y": 18,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -333,9 +349,9 @@
       "textAlignment": "left",
       "characterSize": 20,
       "color": {
-        "b": 255,
-        "g": 255,
-        "r": 255
+        "b": 0,
+        "g": 0,
+        "r": 0
       },
       "content": {
         "bold": false,
@@ -356,7 +372,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
-        "color": "255;255;255"
+        "color": "0;0;0"
       }
     },
     {
@@ -538,7 +554,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Upgrade Max Speed (+20)\n$50",
+      "string": "Upgrade Max Speed (+20)\n$40",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -561,7 +577,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Upgrade Max Speed (+20)\n$50",
+        "text": "Upgrade Max Speed (+20)\n$40",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -664,7 +680,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Upgrade Armor (+1)\n$50",
+      "string": "Upgrade Armor (+1)\n$20",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -687,7 +703,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Upgrade Armor (+1)\n$50",
+        "text": "Upgrade Armor (+1)\n$20",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -832,7 +848,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Upgrade Package Reload\nSpeed (-0.2s)\n$60",
+      "string": "Upgrade Package Reload\nSpeed (-0.2s)\n$50",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -855,7 +871,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Upgrade Package Reload\nSpeed (-0.2s)\n$60",
+        "text": "Upgrade Package Reload\nSpeed (-0.2s)\n$50",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -1030,6 +1046,48 @@
           "width": 256
         }
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "The_Shoppe",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "The Shoppe",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 60,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "127;240;133",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "The Shoppe",
+        "font": "",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1070,6 +1128,9 @@
       },
       {
         "objectName": "NextLevelButton"
+      },
+      {
+        "objectName": "The_Shoppe"
       }
     ]
   },
@@ -1121,7 +1182,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "HealthDisplay",
+            "HealthDisplayB",
             "Text",
             "=",
             "Health"
@@ -1362,7 +1423,7 @@
           "parameters": [
             "Points",
             ">=",
-            "50"
+            "40"
           ]
         },
         {
@@ -1380,7 +1441,7 @@
           "parameters": [
             "Points",
             "-",
-            "50"
+            "40"
           ]
         },
         {
@@ -1448,7 +1509,7 @@
           "parameters": [
             "Points",
             ">=",
-            "60"
+            "50"
           ]
         },
         {
@@ -1466,7 +1527,7 @@
           "parameters": [
             "Points",
             "-",
-            "60"
+            "50"
           ]
         },
         {
@@ -1603,7 +1664,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "HealthDisplay",
+            "HealthDisplayB",
             "Text",
             "=",
             "Health"
@@ -1630,7 +1691,7 @@
           "parameters": [
             "Points",
             ">=",
-            "50"
+            "20"
           ]
         },
         {
@@ -1648,7 +1709,7 @@
           "parameters": [
             "Points",
             "-",
-            "50"
+            "20"
           ]
         },
         {
@@ -1689,7 +1750,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "armorDisplay",
+            "ArmorDisplayB",
             "Text",
             "=",
             "vanArmor"

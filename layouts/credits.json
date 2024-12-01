@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.8141881203709912,
+    "zoomFactor": 0.737081631799403,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -132,6 +132,22 @@
       "x": 648,
       "y": 277,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PointDisplayB",
+      "persistentUuid": "bd4ef745-f836-42d2-87db-4977e76b6922",
+      "width": 0,
+      "x": 622,
+      "y": 450,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -339,6 +355,17 @@
             "",
             "",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PointDisplayB",
+            "Text",
+            "=",
+            "\"Score: \" + Points"
           ]
         }
       ]
