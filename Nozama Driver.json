@@ -1156,6 +1156,51 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_bush3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/bush3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_pixil-frame-0 copy14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/pixil-frame-0 copy14",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_nighttree4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/nighttree4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_nighttree5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/nighttree5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_streetlight2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets/streetlight2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4206,7 +4251,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/bush2",
+                  "image": "assets/bush3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4222,20 +4267,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1,
-                        "y": 1
+                        "x": 20,
+                        "y": 20
                       },
                       {
-                        "x": 11,
-                        "y": 1
+                        "x": 30,
+                        "y": 20
                       },
                       {
-                        "x": 11,
-                        "y": 10
+                        "x": 30,
+                        "y": 29
                       },
                       {
-                        "x": 1,
-                        "y": 10
+                        "x": 20,
+                        "y": 29
                       }
                     ]
                   ]
@@ -4267,7 +4312,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/pixil-frame-0 copy13",
+                  "image": "assets/pixil-frame-0 copy14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4283,20 +4328,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 9,
-                        "y": 3
+                        "x": 19,
+                        "y": 13
                       },
                       {
-                        "x": 21,
-                        "y": 3
+                        "x": 31,
+                        "y": 13
                       },
                       {
-                        "x": 21,
-                        "y": 27
+                        "x": 31,
+                        "y": 37
                       },
                       {
-                        "x": 9,
-                        "y": 27
+                        "x": 19,
+                        "y": 37
                       }
                     ]
                   ]
@@ -4328,7 +4373,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/nighttree2",
+                  "image": "assets/nighttree4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4344,20 +4389,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 21,
+                        "y": 21
                       },
                       {
-                        "x": 10,
-                        "y": 2
+                        "x": 29,
+                        "y": 21
                       },
                       {
-                        "x": 10,
-                        "y": 10
+                        "x": 29,
+                        "y": 29
                       },
                       {
-                        "x": 2,
-                        "y": 10
+                        "x": 21,
+                        "y": 29
                       }
                     ]
                   ]
@@ -4389,7 +4434,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/nighttree3",
+                  "image": "assets/nighttree5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4405,20 +4450,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 3,
-                        "y": 3
+                        "x": 22,
+                        "y": 22
                       },
                       {
-                        "x": 11,
-                        "y": 3
+                        "x": 30,
+                        "y": 22
                       },
                       {
-                        "x": 11,
-                        "y": 11
+                        "x": 30,
+                        "y": 30
                       },
                       {
-                        "x": 3,
-                        "y": 11
+                        "x": 22,
+                        "y": 30
                       }
                     ]
                   ]
@@ -4450,7 +4495,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/streetlight",
+                  "image": "assets/streetlight2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4466,20 +4511,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 2,
-                        "y": 2
+                        "x": 22,
+                        "y": 22
                       },
                       {
-                        "x": 8,
-                        "y": 2
+                        "x": 28,
+                        "y": 22
                       },
                       {
-                        "x": 8,
-                        "y": 8
+                        "x": 28,
+                        "y": 28
                       },
                       {
-                        "x": 2,
-                        "y": 8
+                        "x": 22,
+                        "y": 28
                       }
                     ]
                   ]
