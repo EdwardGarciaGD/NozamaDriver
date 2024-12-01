@@ -1126,6 +1126,36 @@
         "name": "assets/streetlight",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Sounds/Start Screen.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Start Screen.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Game Over.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Game Over.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Level Two.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Level Two.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

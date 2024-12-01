@@ -3807,18 +3807,6 @@
             "van.Variable(PeeLevel)",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Sounds\\Start Game.wav",
-            "",
-            "40",
-            ""
-          ]
         }
       ]
     },
@@ -3870,7 +3858,7 @@
           },
           "parameters": [
             "",
-            "Sounds\\LevelOne.mp3",
+            "Sounds\\Level Two.mp3",
             "yes",
             "40",
             ""
@@ -4675,6 +4663,12 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -4687,16 +4681,6 @@
                 "Animation",
                 "=",
                 "\"Explosion\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game Over\"",
-                ""
               ]
             }
           ]
@@ -4714,7 +4698,27 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "van",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Game Over\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "parameters": []
@@ -4724,6 +4728,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -4886,6 +4891,12 @@
                 "van",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -4914,6 +4925,12 @@
                 "van",
                 "TopDownMovement"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -4925,7 +4942,7 @@
                 "van",
                 "Animation",
                 "=",
-                "\"Driving\""
+                "\"notDriving\""
               ]
             }
           ]
