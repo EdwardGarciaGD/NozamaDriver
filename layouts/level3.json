@@ -5583,7 +5583,7 @@
               "parameters": [
                 "Health",
                 "=",
-                "0"
+                "9"
               ]
             },
             {
@@ -5603,6 +5603,16 @@
                 "Animation",
                 "=",
                 "\"Explosion\""
+              ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "van",
+                "TopDownMovement",
+                "yes"
               ]
             }
           ]

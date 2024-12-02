@@ -4713,6 +4713,16 @@
                 "=",
                 "\"Explosion\""
               ]
+            },
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "van",
+                "TopDownMovement",
+                "yes"
+              ]
             }
           ]
         },
