@@ -5197,6 +5197,16 @@
                     "Health",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Health",
+                    ">=",
+                    "1"
+                  ]
                 }
               ],
               "actions": [
