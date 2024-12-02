@@ -1,8 +1,8 @@
 {
   "b": 209,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Shop",
-  "name": "Shop",
+  "mangledName": "Shop2",
+  "name": "Shop2",
   "r": 215,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -211,8 +211,8 @@
       "name": "FastHandsText",
       "persistentUuid": "37429820-b656-4c27-b005-7a29191e2a37",
       "width": 0,
-      "x": 490,
-      "y": 367,
+      "x": 491,
+      "y": 344,
       "zOrder": 14,
       "numberProperties": [],
       "stringProperties": [],
@@ -848,7 +848,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Upgrade Package Reload\nSpeed (-0.2s)\n$50",
+      "string": "Upgrade Package Reload\nSpeed (-0.2s)\nMinimum Speed: 0.2s\n$50",
       "font": "",
       "textAlignment": "center",
       "characterSize": 20,
@@ -871,7 +871,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Upgrade Package Reload\nSpeed (-0.2s)\n$50",
+        "text": "Upgrade Package Reload\nSpeed (-0.2s)\nMinimum Speed: 0.2s\n$50",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -1186,6 +1186,17 @@
             "Text",
             "=",
             "Health"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "ArmorDisplayB",
+            "Text",
+            "=",
+            "vanArmor"
           ]
         },
         {
@@ -1532,9 +1543,9 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Points",
-            ">=",
-            "50"
+            "Reload",
+            ">",
+            ".4"
           ]
         },
         {
@@ -1542,9 +1553,9 @@
             "value": "NumberVariable"
           },
           "parameters": [
-            "Reload",
-            ">",
-            ".4"
+            "Points",
+            ">=",
+            "50"
           ]
         },
         {
@@ -1831,7 +1842,7 @@
           },
           "parameters": [
             "",
-            "\"Level2\"",
+            "\"Level3\"",
             ""
           ]
         }

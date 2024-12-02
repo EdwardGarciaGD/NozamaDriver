@@ -1,8 +1,8 @@
 {
   "b": 25,
   "disableInputWhenNotFocused": true,
-  "mangledName": "Level_321",
-  "name": "Level 1",
+  "mangledName": "Level3",
+  "name": "Level3",
   "r": 110,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5468750000000239,
+    "zoomFactor": 0.8700232859857642,
     "windowMask": false
   },
   "objectsGroups": [
@@ -839,8 +839,8 @@
       "name": "NeedsPackage",
       "persistentUuid": "5c25b359-7dd0-4c43-8fd0-b8808fc9d648",
       "width": 0,
-      "x": 394,
-      "y": 393,
+      "x": 239,
+      "y": 261,
       "zOrder": 49,
       "numberProperties": [],
       "stringProperties": [],
@@ -1083,22 +1083,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "Tutorial",
-      "persistentUuid": "08a7dae3-8b62-4660-9688-97bfa60937d8",
-      "width": 0,
-      "x": 401,
-      "y": 200,
-      "zOrder": 69,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
       "name": "PackageUI",
       "persistentUuid": "fcafec39-58e6-48f8-a4be-61cd95b32168",
       "width": 0,
@@ -1118,9 +1102,9 @@
       "name": "NeedsPackage",
       "persistentUuid": "fbcb9a5d-b3c5-4517-b31c-bf841a8cadad",
       "width": 0,
-      "x": 829,
-      "y": 493,
-      "zOrder": 183,
+      "x": 1126,
+      "y": 392,
+      "zOrder": 299,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1134,8 +1118,8 @@
       "name": "NeedsPackage",
       "persistentUuid": "d6fae2c8-ce43-4db0-be17-2c9814d0fe51",
       "width": 0,
-      "x": 387,
-      "y": 206,
+      "x": 389,
+      "y": 146,
       "zOrder": 73,
       "numberProperties": [],
       "stringProperties": [],
@@ -1150,9 +1134,9 @@
       "name": "NeedsPackage",
       "persistentUuid": "e587659d-7657-4d53-b087-4374100f5048",
       "width": 0,
-      "x": 390,
-      "y": 303,
-      "zOrder": 74,
+      "x": 462,
+      "y": 493,
+      "zOrder": 296,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1166,8 +1150,8 @@
       "name": "NeedsPackage",
       "persistentUuid": "b2846083-20a7-4f3d-86e2-3961c0aeb91b",
       "width": 0,
-      "x": 539,
-      "y": 265,
+      "x": 510,
+      "y": 320,
       "zOrder": 75,
       "numberProperties": [],
       "stringProperties": [],
@@ -1182,9 +1166,9 @@
       "name": "NeedsPackage",
       "persistentUuid": "0b24c222-476c-420a-be77-d035b49388d8",
       "width": 0,
-      "x": 588,
-      "y": 266,
-      "zOrder": 76,
+      "x": 492,
+      "y": 220,
+      "zOrder": 297,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1214,9 +1198,9 @@
       "name": "NeedsPackage",
       "persistentUuid": "9d730aca-4ea7-4dc7-9c71-57fc1f41c296",
       "width": 0,
-      "x": 648,
-      "y": 319,
-      "zOrder": 78,
+      "x": 886,
+      "y": 358,
+      "zOrder": 298,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1230,9 +1214,9 @@
       "name": "NeedsPackage",
       "persistentUuid": "df4ddbb4-5b36-42af-bbae-cd6b0ef19f96",
       "width": 0,
-      "x": 206,
-      "y": 374,
-      "zOrder": 152,
+      "x": 170,
+      "y": 521,
+      "zOrder": 295,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2845,7 +2829,7 @@
       "width": 147,
       "x": 102,
       "y": 215,
-      "zOrder": 290,
+      "zOrder": -28,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2879,7 +2863,7 @@
       "width": 147,
       "x": 102,
       "y": 276,
-      "zOrder": 290,
+      "zOrder": -5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2896,7 +2880,7 @@
       "width": 147,
       "x": 102,
       "y": 308,
-      "zOrder": 290,
+      "zOrder": -4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2913,7 +2897,7 @@
       "width": 147,
       "x": 102,
       "y": 341,
-      "zOrder": 290,
+      "zOrder": -3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2930,7 +2914,7 @@
       "width": 147,
       "x": 102,
       "y": 372,
-      "zOrder": 290,
+      "zOrder": -2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2947,7 +2931,7 @@
       "width": 147,
       "x": 174,
       "y": 282,
-      "zOrder": 290,
+      "zOrder": -1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2964,7 +2948,7 @@
       "width": 147,
       "x": 205,
       "y": 282,
-      "zOrder": 290,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2981,7 +2965,7 @@
       "width": 147,
       "x": 275,
       "y": 231,
-      "zOrder": 290,
+      "zOrder": -18,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2998,7 +2982,7 @@
       "width": 150,
       "x": 276,
       "y": 293,
-      "zOrder": 291,
+      "zOrder": -16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3015,7 +2999,7 @@
       "width": 150,
       "x": 278,
       "y": 330,
-      "zOrder": 291,
+      "zOrder": -14,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3032,7 +3016,7 @@
       "width": 150,
       "x": 278,
       "y": 376,
-      "zOrder": 291,
+      "zOrder": -15,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3049,7 +3033,7 @@
       "width": 150,
       "x": 385,
       "y": 384,
-      "zOrder": 291,
+      "zOrder": -17,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3117,7 +3101,7 @@
       "width": 147,
       "x": 393,
       "y": 137,
-      "zOrder": 290,
+      "zOrder": -20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3168,7 +3152,7 @@
       "width": 150,
       "x": 603,
       "y": 98,
-      "zOrder": 291,
+      "zOrder": -31,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3202,7 +3186,7 @@
       "width": 150,
       "x": 601,
       "y": 162,
-      "zOrder": 291,
+      "zOrder": -30,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3219,7 +3203,7 @@
       "width": 150,
       "x": 59,
       "y": 460,
-      "zOrder": 291,
+      "zOrder": -6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3236,7 +3220,7 @@
       "width": 150,
       "x": 59,
       "y": 492,
-      "zOrder": 291,
+      "zOrder": -7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3253,7 +3237,7 @@
       "width": 150,
       "x": 59,
       "y": 525,
-      "zOrder": 291,
+      "zOrder": -8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3406,7 +3390,7 @@
       "width": 150,
       "x": 588,
       "y": 291,
-      "zOrder": 291,
+      "zOrder": -24,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3423,7 +3407,7 @@
       "width": 150,
       "x": 588,
       "y": 320,
-      "zOrder": 291,
+      "zOrder": -23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3440,7 +3424,7 @@
       "width": 150,
       "x": 589,
       "y": 348,
-      "zOrder": 291,
+      "zOrder": -21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3525,7 +3509,7 @@
       "width": 147,
       "x": 639,
       "y": 230,
-      "zOrder": 290,
+      "zOrder": -22,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3695,7 +3679,7 @@
       "width": 147,
       "x": 891,
       "y": 379,
-      "zOrder": 290,
+      "zOrder": -26,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3712,7 +3696,7 @@
       "width": 147,
       "x": 786,
       "y": 382,
-      "zOrder": 290,
+      "zOrder": -25,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4018,7 +4002,7 @@
       "width": 147,
       "x": 839,
       "y": 463,
-      "zOrder": 290,
+      "zOrder": -27,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4120,7 +4104,7 @@
       "width": 150,
       "x": 385,
       "y": 354,
-      "zOrder": 291,
+      "zOrder": -11,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4137,7 +4121,7 @@
       "width": 150,
       "x": 385,
       "y": 325,
-      "zOrder": 291,
+      "zOrder": -10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4154,7 +4138,7 @@
       "width": 150,
       "x": 385,
       "y": 295,
-      "zOrder": 291,
+      "zOrder": -13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4171,7 +4155,7 @@
       "width": 150,
       "x": 385,
       "y": 262,
-      "zOrder": 291,
+      "zOrder": -12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4188,7 +4172,7 @@
       "width": 150,
       "x": 386,
       "y": 228,
-      "zOrder": 291,
+      "zOrder": -19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4205,7 +4189,7 @@
       "width": 147,
       "x": 164,
       "y": 150,
-      "zOrder": 290,
+      "zOrder": -29,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4219,9 +4203,122 @@
       "name": "NeedsPackage",
       "persistentUuid": "861c8b2e-fa09-4c00-8452-3f9df4843b50",
       "width": 0,
-      "x": 669,
-      "y": 492,
+      "x": 1071,
+      "y": 501,
       "zOrder": 294,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "armor",
+      "persistentUuid": "cfc9f3e4-f7a7-4638-b70b-8682ec03d0aa",
+      "width": 55,
+      "x": 33,
+      "y": 450,
+      "zOrder": 295,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NeedsPackage",
+      "persistentUuid": "82d7741a-1453-46a0-bb36-fdf49e4dbfcc",
+      "width": 0,
+      "x": 393,
+      "y": 515,
+      "zOrder": 295,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NeedsPackage",
+      "persistentUuid": "ce6bc9e4-c2c8-4464-bac5-45a2db4941ce",
+      "width": 0,
+      "x": 360,
+      "y": 263,
+      "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NeedsPackage",
+      "persistentUuid": "3fe12cb7-9d6a-43bd-953b-33982e685eb0",
+      "width": 0,
+      "x": 738,
+      "y": 494,
+      "zOrder": 304,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NeedsPackage",
+      "persistentUuid": "08b345ad-ebc0-4824-8bdc-7dc6c8075505",
+      "width": 0,
+      "x": 935,
+      "y": 494,
+      "zOrder": 305,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NeedsPackage",
+      "persistentUuid": "eeaa24d9-41f1-44db-8e5d-aa05a992d742",
+      "width": 0,
+      "x": 1057,
+      "y": 238,
+      "zOrder": 306,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "ArmorDisplayB",
+      "persistentUuid": "6b89fdba-2769-4f99-9f1b-b5da854cbb6e",
+      "width": 0,
+      "x": 99,
+      "y": 476,
+      "zOrder": 307,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4537,51 +4634,25 @@
         },
         {
           "type": {
-            "value": "ResetTimer"
+            "value": "TopDownMovementBehavior::MaxSpeed"
           },
           "parameters": [
-            "",
-            "\"tutorialTimer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Points",
+            "van",
+            "TopDownMovement",
             "=",
-            "0"
+            "Speed"
           ]
         },
         {
           "type": {
-            "value": "SetNumberVariable"
+            "value": "FireBullet::FireBullet::SetReloadDurationOp"
           },
           "parameters": [
-            "Health",
+            "van",
+            "FireBullet",
             "=",
-            "10"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
             "Reload",
-            "=",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Speed",
-            "=",
-            "100"
+            ""
           ]
         },
         {
@@ -4589,7 +4660,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "HealthDisplay",
+            "HealthDisplayB",
             "Text",
             "=",
             "Health"
@@ -4600,10 +4671,10 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "PackagesDisplayB",
+            "ArmorDisplayB",
             "Text",
             "=",
-            "Packages + \"/10\""
+            "vanArmor"
           ]
         },
         {
@@ -4615,6 +4686,17 @@
             "Text",
             "=",
             "\"Score: \" + Points"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PackagesDisplayB",
+            "Text",
+            "=",
+            "Packages + \"/15\""
           ]
         },
         {
@@ -4731,33 +4813,6 @@
           "parameters": [
             "van",
             "\"BladderControl\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"tutorialTimer\"",
-            ">=",
-            "5"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Tutorial",
-            ""
           ]
         }
       ]
@@ -5011,27 +5066,6 @@
           "actions": [
             {
               "type": {
-                "value": "SetNumberVariable"
-              },
-              "parameters": [
-                "Health",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "HealthDisplayB",
-                "Text",
-                "=",
-                "ToString(Health)"
-              ]
-            },
-            {
-              "type": {
                 "value": "PlaySound"
               },
               "parameters": [
@@ -5075,6 +5109,82 @@
             }
           ],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "vanArmor",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "vanArmor",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ArmorDisplayB",
+                    "Text",
+                    "=",
+                    "ToString(vanArmor)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "vanArmor",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HealthDisplayB",
+                    "Text",
+                    "=",
+                    "ToString(Health)"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -5174,7 +5284,7 @@
                 "PackagesDisplayB",
                 "Text",
                 "=",
-                "Packages + \"/10\""
+                "Packages + \"/15\""
               ]
             },
             {
@@ -5305,6 +5415,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Bladder Behaviour",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5539,7 +5650,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5554,7 +5664,7 @@
               "parameters": [
                 "Packages",
                 "=",
-                "10"
+                "15"
               ]
             }
           ],
@@ -5565,7 +5675,7 @@
               },
               "parameters": [
                 "",
-                "\"Shop\"",
+                "\"Credits\"",
                 ""
               ]
             }
@@ -5760,6 +5870,11 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [

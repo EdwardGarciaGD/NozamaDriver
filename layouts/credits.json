@@ -145,9 +145,41 @@
       "name": "PointDisplayB",
       "persistentUuid": "bd4ef745-f836-42d2-87db-4977e76b6922",
       "width": 0,
-      "x": 622,
-      "y": 460,
+      "x": 501,
+      "y": 453,
       "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "PackagesDisplayB",
+      "persistentUuid": "cc0ac465-3426-4387-990a-5cb16fcdc6d7",
+      "width": 0,
+      "x": 557,
+      "y": 495,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BottleDisplayB",
+      "persistentUuid": "4953ec6a-78d2-4971-8c3a-ea89fe7dacd6",
+      "width": 0,
+      "x": 585,
+      "y": 535,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -366,13 +398,23 @@
         },
         {
           "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Points",
+            "+",
+            "Health * 10"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "PointDisplayB",
             "Text",
             "=",
-            "\"Score: \" + Points"
+            "\"Score: \" + Points + \" (+10 pts per hp remaining)\""
           ]
         },
         {
@@ -385,6 +427,28 @@
             "yes",
             "45",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "PackagesDisplayB",
+            "Text",
+            "=",
+            "\"Packages Delivered: \" + TotalPackages"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "BottleDisplayB",
+            "Text",
+            "=",
+            "\"Bottles Filled: \" + TotalBottles"
           ]
         }
       ]

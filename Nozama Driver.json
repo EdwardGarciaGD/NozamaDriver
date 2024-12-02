@@ -5025,6 +5025,16 @@
       "name": "Bottles",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "TotalBottles",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "TotalPackages",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -5051,6 +5061,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-over"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/shop2"
     }
   ],
   "externalEvents": [],
