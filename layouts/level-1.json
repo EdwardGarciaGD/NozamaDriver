@@ -2922,12 +2922,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 3,
-      "height": 147,
+      "height": 151,
       "keepRatio": true,
       "layer": "",
       "name": "topdowntree",
       "persistentUuid": "9b6e4477-0d53-4694-98f4-c97ada5ed79f",
-      "width": 147,
+      "width": 148,
       "x": 102,
       "y": 372,
       "zOrder": 290,
@@ -5086,6 +5086,16 @@
                     "van",
                     "Health",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Health",
+                    ">=",
+                    "1"
                   ]
                 }
               ],
