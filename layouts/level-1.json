@@ -4924,18 +4924,6 @@
             "van.Variable(PeeLevel)",
             ""
           ]
-        },
-        {
-          "type": {
-            "value": "PlaySound"
-          },
-          "parameters": [
-            "",
-            "Sounds\\Start Game.wav",
-            "",
-            "40",
-            ""
-          ]
         }
       ]
     },
@@ -5251,7 +5239,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Health and Collisions",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5486,7 +5473,7 @@
                 "Sounds\\Package Delivered.mp3",
                 "",
                 "30",
-                ""
+                "1.3"
               ]
             },
             {

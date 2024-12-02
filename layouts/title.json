@@ -368,9 +368,27 @@
             "YellowButton",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Start Game.wav",
+            "",
+            "40",
+            ""
+          ]
+        },
         {
           "type": {
             "value": "Scene"

@@ -343,7 +343,14 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -366,6 +373,18 @@
             "Text",
             "=",
             "\"Score: \" + Points"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Credits.mp3",
+            "yes",
+            "45",
+            ""
           ]
         }
       ]

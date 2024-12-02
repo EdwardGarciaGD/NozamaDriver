@@ -1201,6 +1201,26 @@
         "name": "assets/streetlight2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Sounds/Shoppe.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Shoppe.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Sounds/Credits.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sounds\\Credits.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
