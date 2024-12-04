@@ -5473,23 +5473,15 @@
                 "TopDownMovement",
                 "yes"
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+            },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                "value": "Wait"
               },
               "parameters": [
-                "van",
-                "Animation"
+                ".5"
               ]
-            }
-          ],
-          "actions": [
+            },
             {
               "type": {
                 "value": "Delete"
