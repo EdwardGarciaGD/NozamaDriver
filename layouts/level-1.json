@@ -1083,22 +1083,6 @@
       "height": 0,
       "keepRatio": true,
       "layer": "UI",
-      "name": "Tutorial",
-      "persistentUuid": "08a7dae3-8b62-4660-9688-97bfa60937d8",
-      "width": 0,
-      "x": 401,
-      "y": 200,
-      "zOrder": 69,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "UI",
       "name": "PackageUI",
       "persistentUuid": "fcafec39-58e6-48f8-a4be-61cd95b32168",
       "width": 0,
@@ -4537,15 +4521,6 @@
         },
         {
           "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"tutorialTimer\""
-          ]
-        },
-        {
-          "type": {
             "value": "SetNumberVariable"
           },
           "parameters": [
@@ -4582,6 +4557,16 @@
             "Speed",
             "=",
             "100"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Packages",
+            "=",
+            "0"
           ]
         },
         {
@@ -4627,6 +4612,18 @@
             "van.Variable(PeeLevel)",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "Sounds\\Start Game.wav",
+            "",
+            "40",
+            ""
+          ]
         }
       ]
     },
@@ -4650,16 +4647,6 @@
             "PeeLevel",
             "=",
             "clamp(van.Variable(PeeLevel), 0, 11)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Packages",
-            "=",
-            "0"
           ]
         },
         {
@@ -4731,33 +4718,6 @@
           "parameters": [
             "van",
             "\"BladderControl\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"tutorialTimer\"",
-            ">=",
-            "5"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "Tutorial",
-            ""
           ]
         }
       ]
@@ -5559,7 +5519,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Level Complete (change this \\/ to however many packageneeded's are in the scene) and Points",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",

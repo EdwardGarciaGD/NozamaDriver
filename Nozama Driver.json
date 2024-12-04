@@ -1221,6 +1221,51 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite12.png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TextBorder.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TextBorder",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TextBorder2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/TextBorder2.png\"}",
+        "name": "TextBorder2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite13.png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite13.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1768,7 +1813,7 @@
       "assetStoreId": "",
       "bold": true,
       "italic": false,
-      "name": "Tutorial",
+      "name": "TutorialControls",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1778,7 +1823,7 @@
       "string": "Arrows to move,\nA and D to throw packages",
       "font": "",
       "textAlignment": "center",
-      "characterSize": 33,
+      "characterSize": 20,
       "color": {
         "b": 0,
         "g": 0,
@@ -1802,7 +1847,7 @@
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
-        "characterSize": 33,
+        "characterSize": 20,
         "color": "0;0;0"
       }
     },
@@ -4899,7 +4944,7 @@
             "objectName": "PeeMeterText"
           },
           {
-            "objectName": "Tutorial"
+            "objectName": "TutorialControls"
           },
           {
             "objectName": "health"
@@ -5045,6 +5090,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
