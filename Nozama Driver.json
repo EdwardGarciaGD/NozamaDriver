@@ -1266,6 +1266,15 @@
         "name": "assets\\NewSprite13.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DALL·E 2024-12-04 11.39.33 - A stylized video game cover titled 'Nozama Driver' in a vibrant vaporwave aesthetic. The design features a futuristic cityscape with neon-lit skyscrap.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "DALL·E 2024-12-04 11.39.33 - A stylized video game cover titled 'Nozama Driver' in a vibrant vaporwave aesthetic. The design features a futuristic cityscape with neon-lit skyscrap.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -5118,6 +5127,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/shop2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/pre-credits"
     }
   ],
   "externalEvents": [],

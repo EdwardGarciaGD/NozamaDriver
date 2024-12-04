@@ -4574,7 +4574,7 @@
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
-            "HealthDisplay",
+            "HealthDisplayB",
             "Text",
             "=",
             "Health"
